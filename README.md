@@ -1,22 +1,7 @@
-# mkdocs-material-template
+# wayback-progit
 
-mkdocs material template
+A backup of [Pro Git book](https://git-scm.com/book/en/v2), written by Scott Chacon and Ben Straub, as well as [中文版](https://git-scm.com/book/zh/v2).
 
+Site is powered by [mkdocs](https://github.com/mkdocs/mkdocs), theme is [mkdocs-material](https://github.com/squidfunk/mkdocs-material).
 
-Example: 
-```shell
-# python 3
-# install dependencies
-pip install mkdocs-material
-
-# init project
-mkdir -p project && cd $_
-mkdocs new .
-echo "theme: material" >> mkdcos.yml
-
-# serve
-mkdocs serve
-
-# build
-mkdocs build
-```
+Here, I use `asciidoctor` and `pandoc` to convert raw asciidoc texts into markdown texts by scripts.
