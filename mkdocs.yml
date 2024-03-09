@@ -105,6 +105,7 @@ plugins:
             Chapters: 章节
             Appendices: 附录
             More: 补充资料
+            Introduction: 简介
             01 Getting Started: 第1章 起步
             02 Git Basics: 第2章 Git基础
             03 Git Branching: 第3章 Git分支
@@ -220,7 +221,7 @@ nav:
     - 09 Git and Other Systems: ch09-git-and-other-systems.md
     - 10 Git Internals: ch10-git-internals.md
   - Chapters:
-    - book/introduction.md
+    - Introduction: book/introduction.md
     - 01 Getting Started:
       - 1.1 About Version Control: book/01-introduction/sections/about-version-control.md
       - 1.2 A Short History of Git: book/01-introduction/sections/history.md
@@ -288,14 +289,14 @@ nav:
       - 8.4 An Example Git-Enforced Policy: book/08-customizing-git/sections/policy.md
     - 09 Git and Other Systems:
       - 9.1 Git as a Client:
+        - book/09-git-and-other-scms/sections/client-svn.md
         - book/09-git-and-other-scms/sections/client-hg.md
         - book/09-git-and-other-scms/sections/client-p4.md
-        - book/09-git-and-other-scms/sections/client-svn.md
-        - book/09-git-and-other-scms/sections/import-custom.md
       - 9.2 Migrating to Git:
+        - book/09-git-and-other-scms/sections/import-svn.md
         - book/09-git-and-other-scms/sections/import-hg.md
         - book/09-git-and-other-scms/sections/import-p4.md
-        - book/09-git-and-other-scms/sections/import-svn.md
+        - book/09-git-and-other-scms/sections/import-custom.md
     - 10 Git Internals:
       - 10.1 Plumbing and Porcelain: book/10-git-internals/sections/plumbing-porcelain.md
       - 10.2 Git Objects: book/10-git-internals/sections/objects.md
