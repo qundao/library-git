@@ -19,7 +19,7 @@ repository](http://github.com/MarkLodato/visual-git-guide)。
     1.  [差异（Diff）](3-commands.md#diff)
     2.  [提交（Commit）](3-commands.md#commit)
     3.  [检出（Checkout）](3-commands.md#checkout)
-    4.  [游离态HEAD的提交](3-commands.md#游离态HEAD的提交)
+    4.  [游离态HEAD的提交](3-commands.md#游离态head的提交)
     5.  [重置（Reset）](3-commands.md#reset)
     6.  [合并（Merge）](3-commands.md#merge)
     7.  [挑选（Cherry Pick）](3-commands.md#cherry-pick)

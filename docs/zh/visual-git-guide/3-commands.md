@@ -16,7 +16,7 @@
 
 即便当前分支是某次提交的祖父节点，git会同样操作。下图中，在*main*分支的祖父节点*stable*分支进行一次提交，生成了*1800b*。
 这样，*stable*分支就不再是*main*分支的祖父节点。此时，[合并](#merge)
-(或者 [衍合](#rebase)) 是必须的。
+(或者 [变基（衍合）](#rebase)) 是必须的。
 
 ![](../../images/visual-git-guide/commit-stable.svg.png)
 
@@ -25,7 +25,7 @@
 
 ![](../../images/visual-git-guide/commit-amend.svg.png)
 
-另一个例子是[游离态HEAD的提交](#游离态HEAD的提交),后文讲。
+另一个例子是[游离态HEAD的提交](#游离态head的提交),后文讲。
 
 ### Checkout
 
@@ -40,7 +40,7 @@ checkout命令用于从历史提交（或者暂存区域）中拷贝文件到工
 ![](../../images/visual-git-guide/checkout-branch.svg.png)
 
 如果既没有指定文件名，也没有指定分支名，而是一个标签、远程分支、SHA-1值或者是像*main~3*类似的东西，就得到一个匿名分支，称作*detached
-HEAD*（被分离的*HEAD*标识）。这样可以很方便地在历史版本之间互相切换。比如说你想要编译1.6.6.1版本的git，你可以运行`git checkout v1.6.6.1`（这是一个标签，而非分支名），编译，安装，然后切换回另一个分支，比如说`git checkout main`。然而，当提交操作涉及到“分离的HEAD”时，其行为会略有不同，详情见在[下面](#游离态HEAD的提交)。
+HEAD*（被分离的*HEAD*标识）。这样可以很方便地在历史版本之间互相切换。比如说你想要编译1.6.6.1版本的git，你可以运行`git checkout v1.6.6.1`（这是一个标签，而非分支名），编译，安装，然后切换回另一个分支，比如说`git checkout main`。然而，当提交操作涉及到“分离的HEAD”时，其行为会略有不同，详情见在[下面](#游离态head的提交)。
 
 ![](../../images/visual-git-guide/checkout-detached.svg.png)
 
@@ -73,7 +73,7 @@ reset命令把当前分支指向另一个位置，并且有选择的变动工作
 ![](../../images/visual-git-guide/reset.svg.png)
 
 如果给了文件名(或者 `-p`选项),
-那么工作效果和带文件名的[checkout](#checkout)差不多，除了索引被更新。
+那么工作效果和带文件名的[检出（Checkout）](#checkout)差不多，除了索引被更新。
 
 ![](../../images/visual-git-guide/reset-files.svg.png)
 
@@ -99,7 +99,7 @@ cherry-pick命令"复制"一个提交节点并在当前分支做一次完全一�
 ### Rebase
 
 衍合是合并命令的另一种选择。合并把两个父分支合并进行一次提交，提交历史不是线性的。衍合在当前分支上重演另一个分支的历史，提交历史是线性的。
-本质上，这是线性化的自动的 [cherry-pick](#cherry-pick)
+本质上，这是线性化的自动的 [挑选（Cherry Pick）](#cherry-pick)
 
 ![](../../images/visual-git-guide/rebase.svg.png)
 
