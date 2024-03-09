@@ -1,0 +1,17 @@
+### IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine 中的 Git
+
+JetBrains IDEs（比如 IntelliJ
+IDEA，PyCharm，WebStorm，PhpStorm，RubyMine，以及其他）自带 Git
+集成插件。插件在 IDE 中提供了一个专门的页面，可以使用 Git 和 GitHub 的
+Pull Request。
+
+![JetBrains IDEs 中的版本控制工具窗口。](../../../../images/jb.png)
+
+Figure 1. JetBrains IDEs 中的版本控制工具窗口。
+
+该集成插件依赖于 Git 的命令行客户端，所以需要先安装一个 Git
+客户端。官方文档请访问：
+[https://www.jetbrains.com/help/idea/using-git-integration.html](https://www.jetbrains.com/help/idea/using-git-integration.html)
+。
+
+Last updated 2024-03-09 10:37:49 +0800
