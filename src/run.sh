@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eux
 
-base="../orignal"
+base="../raw"
 docs="../docs"
 temp="./temp"
 
@@ -37,3 +37,11 @@ rm "$docs"/*/index/.md
 
 ecno "clean $temp"
 rm -r "$temp"
+
+# base="raw"
+# docs="docs"
+# target="git-from-the-bottom-up"
+# lang="en"
+
+# rsync -avm --include="*/" --include="*.md" --exclude="*" "$base/$target" "$docs/$lang/"
+# rsync -avm --include="*/" --include="*.png" --exclude="*" "$base/$target/images" "$docs/$lang/$target"
