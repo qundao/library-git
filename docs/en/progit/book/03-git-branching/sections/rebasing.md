@@ -11,7 +11,7 @@ If you go back to an earlier example from
 [\[\_basic_merging\]](#_basic_merging), you can see that you diverged
 your work and made commits on two different branches.
 
-![Simple divergent history](../../../../images/basic-rebase-1.png)
+![Simple divergent history](../../../../../images/progit/basic-rebase-1.png)
 
 Figure 1. Simple divergent history
 
@@ -20,7 +20,7 @@ the `merge` command. It performs a three-way merge between the two
 latest branch snapshots (`C3` and `C4`) and the most recent common
 ancestor of the two (`C2`), creating a new snapshot (and commit).
 
-![Merging to integrate diverged work history](../../../../images/basic-rebase-2.png)
+![Merging to integrate diverged work history](../../../../../images/progit/basic-rebase-2.png)
 
 Figure 2. Merging to integrate diverged work history
 
@@ -47,7 +47,7 @@ temporary files, resetting the current branch to the same commit as the
 branch you are rebasing onto, and finally applying each change in turn.
 
 ![Rebasing the change introduced in \`C4\` onto
-\`C3\`](../../../../images/basic-rebase-3.png)
+\`C3\`](../../../../../images/progit/basic-rebase-3.png)
 
 Figure 3. Rebasing the change introduced in `C4` onto `C3`
 
@@ -59,7 +59,7 @@ $ git checkout master
 $ git merge experiment
 ```
 
-![Fast-forwarding the \`master\` branch](../../../../images/basic-rebase-4.png)
+![Fast-forwarding the \`master\` branch](../../../../../images/progit/basic-rebase-4.png)
 
 Figure 4. Fast-forwarding the `master` branch
 
@@ -97,7 +97,7 @@ changes (`client`) and committed a few times. Finally, you went back to
 your `server` branch and did a few more commits.
 
 ![A history with a topic branch off another topic
-branch](../../../../images/interesting-rebase-1.png)
+branch](../../../../../images/progit/interesting-rebase-1.png)
 
 Figure 5. A history with a topic branch off another topic branch
 
@@ -117,7 +117,7 @@ the `client` branch as if it was based directly off the `master` branch
 instead.” It’s a bit complex, but the result is pretty cool.
 
 ![Rebasing a topic branch off another topic
-branch](../../../../images/interesting-rebase-2.png)
+branch](../../../../../images/progit/interesting-rebase-2.png)
 
 Figure 6. Rebasing a topic branch off another topic branch
 
@@ -130,7 +130,7 @@ $ git merge client
 ```
 
 ![Fast-forwarding your \`master\` branch to include the \`client\`
-branch changes](../../../../images/interesting-rebase-3.png)
+branch changes](../../../../../images/progit/interesting-rebase-3.png)
 
 Figure 7. Fast-forwarding your `master` branch to include the `client`
 branch changes
@@ -151,7 +151,7 @@ in [Rebasing your `server` branch on top of your `master`
 branch](#rbdiag_h).
 
 ![Rebasing your \`server\` branch on top of your \`master\`
-branch](../../../../images/interesting-rebase-4.png)
+branch](../../../../../images/progit/interesting-rebase-4.png)
 
 Figure 8. Rebasing your `server` branch on top of your `master` branch
 
@@ -171,7 +171,7 @@ $ git branch -d client
 $ git branch -d server
 ```
 
-![Final commit history](../../../../images/interesting-rebase-5.png)
+![Final commit history](../../../../../images/progit/interesting-rebase-5.png)
 
 Figure 9. Final commit history
 
@@ -198,7 +198,7 @@ can cause problems. Suppose you clone from a central server and then do
 some work off that. Your commit history looks like this:
 
 ![Clone a repository, and base some work on
-it](../../../../images/perils-of-rebasing-1.png)
+it](../../../../../images/progit/perils-of-rebasing-1.png)
 
 Figure 10. Clone a repository, and base some work on it
 
@@ -207,7 +207,7 @@ work to the central server. You fetch it and merge the new remote branch
 into your work, making your history look something like this:
 
 ![Fetch more commits, and merge them into your
-work](../../../../images/perils-of-rebasing-2.png)
+work](../../../../../images/progit/perils-of-rebasing-2.png)
 
 Figure 11. Fetch more commits, and merge them into your work
 
@@ -217,7 +217,7 @@ history on the server. You then fetch from that server, bringing down
 the new commits.
 
 ![Someone pushes rebased commits, abandoning commits you’ve based your
-work on](../../../../images/perils-of-rebasing-3.png)
+work on](../../../../../images/progit/perils-of-rebasing-3.png)
 
 Figure 12. Someone pushes rebased commits, abandoning commits you’ve
 based your work on
@@ -227,7 +227,7 @@ merge commit which includes both lines of history, and your repository
 will look like this:
 
 ![You merge in the same work again into a new merge
-commit](../../../../images/perils-of-rebasing-4.png)
+commit](../../../../../images/progit/perils-of-rebasing-4.png)
 
 Figure 13. You merge in the same work again into a new merge commit
 
@@ -275,7 +275,7 @@ something more like [Rebase on top of force-pushed rebase
 work](#_rebase_rebase_work).
 
 ![Rebase on top of force-pushed rebase
-work](../../../../images/perils-of-rebasing-5.png)
+work](../../../../../images/progit/perils-of-rebasing-5.png)
 
 Figure 14. Rebase on top of force-pushed rebase work
 

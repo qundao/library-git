@@ -40,7 +40,7 @@ commit one to commit four - that will be the historical one. The second
 line will just be commits four and five - that will be the recent
 history.
 
-![Example Git history](../../../../images/replace1.png)
+![Example Git history](../../../../../images/progit/replace1.png)
 
 Figure 1. Example Git history
 
@@ -58,7 +58,7 @@ c6e1e95 (history) Fourth commit
 c1822cf First commit
 ```
 
-![Creating a new \`history\` branch](../../../../images/replace2.png)
+![Creating a new \`history\` branch](../../../../../images/progit/replace2.png)
 
 Figure 2. Creating a new `history` branch
 
@@ -113,7 +113,7 @@ $ echo 'Get history from blah blah blah' | git commit-tree 9c68fdc^{tree}
 
 [TABLE]
 
-![Creating a base commit using \`commit-tree\`](../../../../images/replace3.png)
+![Creating a base commit using \`commit-tree\`](../../../../../images/progit/replace3.png)
 
 Figure 3. Creating a base commit using `commit-tree`
 
@@ -130,7 +130,7 @@ Applying: fourth commit
 Applying: fifth commit
 ```
 
-![Rebasing the history on top of the base commit](../../../../images/replace4.png)
+![Rebasing the history on top of the base commit](../../../../../images/progit/replace4.png)
 
 Figure 4. Rebasing the history on top of the base commit
 
@@ -203,7 +203,7 @@ able to replace one commit in our history with an entirely different
 commit and all the normal tools (`bisect`, `blame`, etc) will work how
 we would expect them to.
 
-![Combining the commits with \`git replace\`](../../../../images/replace5.png)
+![Combining the commits with \`git replace\`](../../../../../images/progit/replace5.png)
 
 Figure 5. Combining the commits with `git replace`
 

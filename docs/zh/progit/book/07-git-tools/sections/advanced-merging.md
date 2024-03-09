@@ -545,7 +545,7 @@ index 0399cd5,59727f0..e1d0799
 合并提交并无不同。 假设现在在一个主题分支上工作，不小心将其合并到
 `master` 中，现在提交历史看起来是这样：
 
-![意外的合并提交](../../../../images/undomerge-start.png)
+![意外的合并提交](../../../../../images/progit/undomerge-start.png)
 
 Figure 1. 意外的合并提交
 
@@ -557,7 +557,7 @@ Figure 1. 意外的合并提交
 大多数情况下，如果你在错误的 `git merge` 后运行
 `git reset --hard HEAD~`，这会重置分支指向所以它们看起来像这样：
 
-![在 \`git reset --hard HEAD~\` 之后的历史](../../../../images/undomerge-reset.png)
+![在 \`git reset --hard HEAD~\` 之后的历史](../../../../../images/progit/undomerge-reset.png)
 
 Figure 2. 在 `git reset --hard HEAD~` 之后的历史
 
@@ -598,7 +598,7 @@ $ git revert -m 1 HEAD
 
 有还原提交的历史看起来像这样：
 
-![在 \`git revert -m 1\` 后的历史](../../../../images/undomerge-revert.png)
+![在 \`git revert -m 1\` 后的历史](../../../../../images/progit/undomerge-revert.png)
 
 Figure 3. 在 `git revert -m 1` 后的历史
 
@@ -615,7 +615,7 @@ Already up-to-date.
 `topic` 中并没有东西不能从 `master` 中追踪到达。 更糟的是，如果你在
 `topic` 中增加工作然后再次合并，Git 只会引入被还原的合并 *之后* 的修改。
 
-![含有坏掉合并的历史](../../../../images/undomerge-revert2.png)
+![含有坏掉合并的历史](../../../../../images/progit/undomerge-revert2.png)
 
 Figure 4. 含有坏掉合并的历史
 
@@ -628,7 +628,7 @@ $ git revert ^M
 $ git merge topic
 ```
 
-![在重新合并一个还原合并后的历史](../../../../images/undomerge-revert3.png)
+![在重新合并一个还原合并后的历史](../../../../../images/progit/undomerge-revert3.png)
 
 Figure 5. 在重新合并一个还原合并后的历史
 

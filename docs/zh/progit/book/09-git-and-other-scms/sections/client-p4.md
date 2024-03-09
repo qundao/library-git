@@ -30,7 +30,7 @@ VirtualBox）。
 与 `git`）的密码，
 并且提供一个实例名字来区分在同一网络下不同的安装。当那些都完成后，将会看到这样：
 
-![Git Fusion 虚拟机启动屏幕。](../../../../images/git-fusion-boot.png)
+![Git Fusion 虚拟机启动屏幕。](../../../../../images/progit/git-fusion-boot.png)
 
 Figure 1. Git Fusion 虚拟机启动屏幕。
 
@@ -296,7 +296,7 @@ To https://10.0.1.254/Jam
 Git 认为它成功了。 让我们从 Perforce 的视角看一下 `README`
 文件的历史，使用 `p4v` 的版本图功能。
 
-![Git 推送后的 Perforce 版本图。](../../../../images/git-fusion-perforce-graph.png)
+![Git 推送后的 Perforce 版本图。](../../../../../images/progit/git-fusion-perforce-graph.png)
 
 Figure 2. Git 推送后的 Perforce 版本图
 

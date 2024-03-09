@@ -30,7 +30,7 @@ Gitk 可以接受很多命令行选项，其中的大部分都直接传给底层
 去执行了。 `--all` 可能是这其中最有用的一个, 它告诉 gitk 去尽可能地从
 *任何* 引用查找提交并显示，而不仅仅是从 HEAD。 Gitk 的界面看起来长这样：
 
-![\`gitk\` 历史查看器。](../../../../images/gitk.png)
+![\`gitk\` 历史查看器。](../../../../../images/progit/gitk.png)
 
 Figure 1. `gitk` 历史查看器。
 
@@ -49,7 +49,7 @@ $ git gui
 
 它的界面长这个样子：
 
-![\`git-gui\` 提交工具。](../../../../images/git-gui.png)
+![\`git-gui\` 提交工具。](../../../../../images/progit/git-gui.png)
 
 Figure 2. `git-gui` 提交工具。
 
@@ -76,11 +76,11 @@ GitHub 发布了两个面向工作流程的 Git 客户端：Windows 版，和 ma
 它们很好的展示了一个面向工作流程的工具应该是什么样子——专注于提升那些常用的功能及其协作的可用性，而不是实现
 Git 的 *所有* 功能. 它们看起来长这个样子：
 
-![GitHub macOS 客户端。](../../../../images/github_mac.png)
+![GitHub macOS 客户端。](../../../../../images/progit/github_mac.png)
 
 Figure 3. GitHub macOS 客户端。
 
-![GitHub Windows 客户端。](../../../../images/github_win.png)
+![GitHub Windows 客户端。](../../../../../images/progit/github_win.png)
 
 Figure 4. GitHub Windows 客户端。
 
@@ -133,13 +133,13 @@ Powershell，在本章的后面一节我们会详细介绍这方面的内容。
 两个平台上的客户端在分支管理上有所不同。 在 macOS
 上，创建分支的按钮在窗口的上方：
 
-![macOS 上的“创建分支”按钮。](../../../../images/branch_widget_mac.png)
+![macOS 上的“创建分支”按钮。](../../../../../images/progit/branch_widget_mac.png)
 
 Figure 5. macOS 上的“创建分支”按钮。
 
 在 Windows 上，你可以通过在分支切换挂件中输入新分支的名称来完成创建：
 
-![在 Windows 上创建分支。](../../../../images/branch_widget_win.png)
+![在 Windows 上创建分支。](../../../../../images/progit/branch_widget_win.png)
 
 Figure 6. 在 Windows 上创建分支。
 

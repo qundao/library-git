@@ -33,7 +33,7 @@ c1822cf first commit
 我们想将其分成拆分成两条历史。 第一个到第四个提交的作为第一个历史版本。
 第四、第五个提交的作为最近的第二个历史版本。
 
-![replace1](../../../../images/replace1.png)
+![replace1](../../../../../images/progit/replace1.png)
 
 创建历史版本的历史很容易，我们可以只将一个历史中的分支推送到一个新的远程仓库的
 `master` 分支。
@@ -48,7 +48,7 @@ c6e1e95 (history) fourth commit
 c1822cf first commit
 ```
 
-![replace2](../../../../images/replace2.png)
+![replace2](../../../../../images/progit/replace2.png)
 
 现在我们可以把这个新的 `history` 分支推送到我们新仓库的 `master` 分支：
 
@@ -93,7 +93,7 @@ $ echo 'get history from blah blah blah' | git commit-tree 9c68fdc^{tree}
 
 [TABLE]
 
-![replace3](../../../../images/replace3.png)
+![replace3](../../../../../images/progit/replace3.png)
 
 现在我们已经有一个基础提交了，我们可以通过 `git rebase --onto`
 命令来将剩余的历史变基到基础提交之上。 `--onto` 参数是刚才 `commit-tree`
@@ -107,7 +107,7 @@ Applying: fourth commit
 Applying: fifth commit
 ```
 
-![replace4](../../../../images/replace4.png)
+![replace4](../../../../../images/progit/replace4.png)
 
 我们已经用基础提交重写了最近的历史，基础提交包括如何重新组成整个历史的说明。
 我们可以将新历史推送到新项目中，当其他人克隆这个仓库时，他们仅能看到最近两次提交以及一个包含上述说明的基础提交。
@@ -169,7 +169,7 @@ c1822cf first commit
 我们就能用一个提交来替换历史中的所有不同的提交，
 并且所有的工具（`bisect`，`blame` 等）也都奏效。
 
-![replace5](../../../../images/replace5.png)
+![replace5](../../../../../images/progit/replace5.png)
 
 有趣的是，即使是使用了 `c6e1e95` 提交数据来进行替换，它的 SHA-1 仍显示为
 `81a708d`。 即使你运行了 `cat-file` 命令，它仍会显示你替换的数据：

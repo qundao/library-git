@@ -39,7 +39,7 @@ others on the same network. When that has all completed, you’ll see
 this:
 
 ![The Git Fusion virtual machine boot
-screen](../../../../images/git-fusion-boot.png)
+screen](../../../../../images/progit/git-fusion-boot.png)
 
 Figure 1. The Git Fusion virtual machine boot screen
 
@@ -327,7 +327,7 @@ file from Perforce’s point of view, using the revision graph feature of
 `p4v`:
 
 ![Perforce revision graph resulting from Git
-push](../../../../images/git-fusion-perforce-graph.png)
+push](../../../../../images/progit/git-fusion-perforce-graph.png)
 
 Figure 2. Perforce revision graph resulting from Git push
 

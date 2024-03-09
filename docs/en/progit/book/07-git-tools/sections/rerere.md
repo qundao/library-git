@@ -53,7 +53,7 @@ In one branch we change the word “hello” to “hola”, then in another
 branch we change the “world” to “mundo”, just like before.
 
 ![Two branches changing the same part of the same file
-differently](../../../../images/rerere1.png)
+differently](../../../../../images/progit/rerere1.png)
 
 Figure 1. Two branches changing the same part of the same file
 differently
@@ -162,7 +162,7 @@ Recorded resolution for 'hello.rb'.
 
 You can see that it "Recorded resolution for FILE".
 
-![Recorded resolution for FILE](../../../../images/rerere2.png)
+![Recorded resolution for FILE](../../../../../images/progit/rerere2.png)
 
 Figure 2. Recorded resolution for FILE
 
@@ -225,7 +225,7 @@ index a440db6,54336ba..0000000
 ```
 
 ![Automatically resolved merge conflict using previous
-resolution](../../../../images/rerere3.png)
+resolution](../../../../../images/progit/rerere3.png)
 
 Figure 3. Automatically resolved merge conflict using previous
 resolution

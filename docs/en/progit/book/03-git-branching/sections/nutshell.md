@@ -40,14 +40,14 @@ lists the contents of the directory and specifies which file names are
 stored as which blobs, and one *commit* with the pointer to that root
 tree and all the commit metadata.
 
-![A commit and its tree](../../../../images/commit-and-tree.png)
+![A commit and its tree](../../../../../images/progit/commit-and-tree.png)
 
 Figure 1. A commit and its tree
 
 If you make some changes and commit again, the next commit stores a
 pointer to the commit that came immediately before it.
 
-![Commits and their parents](../../../../images/commits-and-parents.png)
+![Commits and their parents](../../../../../images/progit/commits-and-parents.png)
 
 Figure 2. Commits and their parents
 
@@ -59,7 +59,7 @@ forward automatically.
 
 [TABLE]
 
-![A branch and its commit history](../../../../images/branch-and-history.png)
+![A branch and its commit history](../../../../../images/progit/branch-and-history.png)
 
 Figure 3. A branch and its commit history
 
@@ -76,7 +76,7 @@ $ git branch testing
 This creates a new pointer to the same commit you’re currently on.
 
 ![Two branches pointing into the same series of
-commits](../../../../images/two-branches.png)
+commits](../../../../../images/progit/two-branches.png)
 
 Figure 4. Two branches pointing into the same series of commits
 
@@ -87,7 +87,7 @@ or CVS. In Git, this is a pointer to the local branch you’re currently
 on. In this case, you’re still on `master`. The `git branch` command
 only *created* a new branch — it didn’t switch to that branch.
 
-![HEAD pointing to a branch](../../../../images/head-to-master.png)
+![HEAD pointing to a branch](../../../../../images/progit/head-to-master.png)
 
 Figure 5. HEAD pointing to a branch
 
@@ -116,7 +116,7 @@ $ git checkout testing
 
 This moves `HEAD` to point to the `testing` branch.
 
-![HEAD points to the current branch](../../../../images/head-to-testing.png)
+![HEAD points to the current branch](../../../../../images/progit/head-to-testing.png)
 
 Figure 6. HEAD points to the current branch
 
@@ -128,7 +128,7 @@ $ git commit -a -m 'Make a change'
 ```
 
 ![The HEAD branch moves forward when a commit is
-made](../../../../images/advance-testing.png)
+made](../../../../../images/progit/advance-testing.png)
 
 Figure 7. The HEAD branch moves forward when a commit is made
 
@@ -143,7 +143,7 @@ $ git checkout master
 
 [TABLE]
 
-![HEAD moves when you checkout](../../../../images/checkout-master.png)
+![HEAD moves when you checkout](../../../../../images/progit/checkout-master.png)
 
 Figure 8. HEAD moves when you checkout
 
@@ -171,7 +171,7 @@ can switch back and forth between the branches and merge them together
 when you’re ready. And you did all that with simple `branch`,
 `checkout`, and `commit` commands.
 
-![Divergent history](../../../../images/advance-master.png)
+![Divergent history](../../../../../images/progit/advance-master.png)
 
 Figure 9. Divergent history
 

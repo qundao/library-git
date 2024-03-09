@@ -37,7 +37,7 @@ Git 源代码中的 `Documentation/SubmittingPatches` 文件中阅读它。
 提供了一个简单的方式来检查这点——在提交前，运行
 `git diff --check`，它将会找到可能的空白错误并将它们为你列出来。
 
-![\`git diff --check\` 的输出。](../../../../images/git-diff-check.png)
+![\`git diff --check\` 的输出。](../../../../../images/progit/git-diff-check.png)
 
 Figure 1. `git diff --check` 的输出
 
@@ -181,7 +181,7 @@ From john@githost:simplegit
 
 在这个时候，John 的本地仓库看起来像这样：
 
-![John 的分叉历史。](../../../../images/small-team-1.png)
+![John 的分叉历史。](../../../../../images/progit/small-team-1.png)
 
 Figure 2. John 的分叉历史
 
@@ -196,7 +196,7 @@ Merge made by the 'recursive' strategy.
 
 合并进行得很顺利——John 更新后的历史现在看起来像这样：
 
-![合并了 \`origin/master\` 之后 John 的仓库。](../../../../images/small-team-2.png)
+![合并了 \`origin/master\` 之后 John 的仓库。](../../../../../images/progit/small-team-2.png)
 
 Figure 3. 合并了 `origin/master` 之后 John 的仓库
 
@@ -213,7 +213,7 @@ To john@githost:simplegit.git
 
 最终，John 的提交历史看起来像这样：
 
-![推送到 \`origin\` 服务器后 John 的历史。](../../../../images/small-team-3.png)
+![推送到 \`origin\` 服务器后 John 的历史。](../../../../../images/progit/small-team-3.png)
 
 Figure 4. 推送到 `origin` 服务器后 John 的历史
 
@@ -221,7 +221,7 @@ Figure 4. 推送到 `origin` 服务器后 John 的历史
 的主题分支，然后在该分支上提交了三次。 她还没有抓取 John
 的改动，所以她的提交历史看起来像这样：
 
-![Jessica 的主题分支。](../../../../images/small-team-4.png)
+![Jessica 的主题分支。](../../../../../images/progit/small-team-4.png)
 
 Figure 5. Jessica 的主题分支
 
@@ -238,7 +238,7 @@ From jessica@githost:simplegit
 
 那会同时拉取 John 推送的工作。 Jessica 的历史现在看起来像这样：
 
-![抓取 John 的改动后 Jessica 的历史。](../../../../images/small-team-5.png)
+![抓取 John 的改动后 Jessica 的历史。](../../../../../images/progit/small-team-5.png)
 
 Figure 6. 抓取 John 的改动后 Jessica 的历史
 
@@ -303,7 +303,7 @@ Merge made by the 'recursive' strategy.
 
 每一个文件都干净地合并了，Jessica 的历史现在看起来像这样：
 
-![合并了 John 的改动后 Jessica 的历史。](../../../../images/small-team-6.png)
+![合并了 John 的改动后 Jessica 的历史。](../../../../../images/progit/small-team-6.png)
 
 Figure 7. 合并了 John 的改动后 Jessica 的历史
 
@@ -319,7 +319,7 @@ To jessica@githost:simplegit.git
 
 每一个开发者都提交了几次并成功地合并了其他人的工作。
 
-![推送所有的改动回服务器后 Jessica 的历史。](../../../../images/small-team-7.png)
+![推送所有的改动回服务器后 Jessica 的历史。](../../../../../images/progit/small-team-7.png)
 
 Figure 8. 推送所有的改动回服务器后 Jessica 的历史
 
@@ -330,7 +330,7 @@ Figure 8. 推送所有的改动回服务器后 Jessica 的历史
 分支， 之后推送到服务器上的 `master` 分支。通常顺序像这样：
 
 ![一个简单的多人 Git
-工作流程的通常事件顺序。](../../../../images/small-team-flow.png)
+工作流程的通常事件顺序。](../../../../../images/progit/small-team-flow.png)
 
 Figure 9. 一个简单的多人 Git 工作流程的通常事件顺序
 
@@ -398,7 +398,7 @@ $ git commit -am 'add ls-files'
 
 现在 Jessica 的仓库看起来像这样：
 
-![Jessica 的初始提交历史。](../../../../images/managed-team-1.png)
+![Jessica 的初始提交历史。](../../../../../images/progit/managed-team-1.png)
 
 Figure 10. Jessica 的初始提交历史
 
@@ -494,7 +494,7 @@ To jessica@githost:simplegit.git
 
 Jessica 的提交历史现在看起来像这样：
 
-![在一个主题分支提交后 Jessica 的历史。](../../../../images/managed-team-2.png)
+![在一个主题分支提交后 Jessica 的历史。](../../../../../images/progit/managed-team-2.png)
 
 Figure 11. 在一个主题分支提交后 Jessica 的历史
 
@@ -502,7 +502,7 @@ Figure 11. 在一个主题分支提交后 Jessica 的历史
 `featureBee` 分支准备好整合到主线中了。
 在整合者将这些分支合并到主线后，就能一次将这个新的合并提交抓取下来，历史看起来就会像这样：
 
-![合并了 Jessica 的两个主题分支后她的历史。](../../../../images/managed-team-3.png)
+![合并了 Jessica 的两个主题分支后她的历史。](../../../../../images/progit/managed-team-3.png)
 
 Figure 12. 合并了 Jessica 的两个主题分支后她的历史
 
@@ -511,7 +511,7 @@ Figure 12. 合并了 Jessica 的两个主题分支后她的历史
 团队中更小一些的子小组可以通过远程分支协作而不必影响或妨碍整个团队的能力是
 Git 的一个巨大优势。 在这儿看到的工作流程顺序类似这样：
 
-![这种管理团队工作流程的基本顺序。](../../../../images/managed-team-flow.png)
+![这种管理团队工作流程的基本顺序。](../../../../../images/progit/managed-team-flow.png)
 
 Figure 13. 这种管理团队工作流程的基本顺序
 
@@ -611,7 +611,7 @@ $ git fetch origin
 
 现在，每一个特性都保存在一个贮藏库中——类似于补丁队列——可以重写、变基与修改而不会让特性互相干涉或互相依赖，像这样：
 
-![\`featureB\` 的初始提交历史。](../../../../images/public-small-1.png)
+![\`featureB\` 的初始提交历史。](../../../../../images/progit/public-small-1.png)
 
 Figure 14. `featureB` 的初始提交历史
 
@@ -628,7 +628,7 @@ $ git push -f myfork featureA
 这样会重写你的历史，现在看起来像是 [`featureA`
 工作之后的提交历史](#psp_b)
 
-![\`featureA\` 工作之后的提交历史。](../../../../images/public-small-2.png)
+![\`featureA\` 工作之后的提交历史。](../../../../../images/progit/public-small-2.png)
 
 Figure 15. `featureA` 工作之后的提交历史
 
@@ -660,7 +660,7 @@ $ git push myfork featureBv2
 现在你可以给维护者发送一条消息，表示你已经做了要求的修改然后他们可以在你的
 `featureBv2` 分支上找到那些改动。
 
-![\`featureBv2\` 工作之后的提交历史。](../../../../images/public-small-3.png)
+![\`featureBv2\` 工作之后的提交历史。](../../../../../images/progit/public-small-3.png)
 
 Figure 16. `featureBv2` 工作之后的提交历史
 

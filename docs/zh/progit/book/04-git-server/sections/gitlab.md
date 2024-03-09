@@ -18,7 +18,7 @@ GitLab 是一个数据库支持的 web 应用，所以相比于其他 git
 的一个优点在于它的登录界面（通过 alt+→ 键进入）， 它会告诉你安装好的
 GitLab 的 IP 地址以及默认的用户名和密码。
 
-![Bitnami GitLab 虚拟机登录界面。](../../../../images/bitnami.png)
+![Bitnami GitLab 虚拟机登录界面。](../../../../../images/progit/bitnami.png)
 
 Figure 1. Bitnami GitLab 虚拟机登录界面。
 
@@ -37,7 +37,7 @@ GitLab 的管理界面是通过网络进入的。 将你的浏览器转到已经
 请登录后尽快更换密码 的提示）。 登录后，点击主栏上方靠右位置的 “Admin
 area” 图标进行管理。
 
-![GitLab 主栏的 “Admin area” 图标。](../../../../images/gitlab-menu.png)
+![GitLab 主栏的 “Admin area” 图标。](../../../../../images/progit/gitlab-menu.png)
 
 Figure 2. GitLab 主栏的 “Admin area” 图标。
 
@@ -49,7 +49,7 @@ GitLab 上的用户指的是对应协作者的帐号。
 如果一个叫 jane 的用户拥有一个名称是 project 的项目，那么这个项目的 url
 会是 [`http://server/jane/project`](http://server/jane/project) 。
 
-![.GitLab 用户管理界面。](../../../../images/gitlab-users.png)
+![.GitLab 用户管理界面。](../../../../../images/progit/gitlab-users.png)
 
 Figure 3. GitLab 用户管理界面。
 
@@ -70,7 +70,7 @@ Figure 3. GitLab 用户管理界面。
 的组拥有一个名称是 materials 的项目，那么这个项目的 url 会是
 [`http://server/training/materials`](http://server/training/materials)。
 
-![GitLab 组管理界面。](../../../../images/gitlab-groups.png)
+![GitLab 组管理界面。](../../../../../images/progit/gitlab-groups.png)
 
 Figure 4. GitLab 组管理界面。
 

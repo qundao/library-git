@@ -30,7 +30,7 @@ To deal with this issue, programmers long ago developed local VCSs that
 had a simple database that kept all the changes to files under revision
 control.
 
-![Local version control diagram](../../../../images/local.png)
+![Local version control diagram](../../../../../images/progit/local.png)
 
 Figure 1. Local version control diagram
 
@@ -51,7 +51,7 @@ that contains all the versioned files, and a number of clients that
 check out files from that central place. For many years, this has been
 the standard for version control.
 
-![Centralized version control diagram](../../../../images/centralized.png)
+![Centralized version control diagram](../../../../../images/progit/centralized.png)
 
 Figure 2. Centralized version control diagram
 
@@ -82,7 +82,7 @@ were collaborating via that server, any of the client repositories can
 be copied back up to the server to restore it. Every clone is really a
 full backup of all the data.
 
-![Distributed version control diagram](../../../../images/distributed.png)
+![Distributed version control diagram](../../../../../images/progit/distributed.png)
 
 Figure 3. Distributed version control diagram
 

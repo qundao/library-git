@@ -65,7 +65,7 @@ fdf4fc3344e67ab068f836878b6c4951e3b15f3d First commit
 Now, your Git database conceptually looks something like this:
 
 ![Git directory objects with branch head references
-included](../../../../images/data-model-4.png)
+included](../../../../../images/progit/data-model-4.png)
 
 Figure 1. Git directory objects with branch head references included
 

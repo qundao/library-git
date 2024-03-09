@@ -8,7 +8,7 @@
 请回顾之前在 [\[\_basic_merging\]](#_basic_merging)
 中的一个例子，你会看到开发任务分叉到两个不同分支，又各自提交了更新。
 
-![分叉的提交历史。](../../../../images/basic-rebase-1.png)
+![分叉的提交历史。](../../../../../images/progit/basic-rebase-1.png)
 
 Figure 1. 分叉的提交历史
 
@@ -16,7 +16,7 @@ Figure 1. 分叉的提交历史
 它会把两个分支的最新快照（`C3` 和
 `C4`）以及二者最近的共同祖先（`C2`）进行三方合并，合并的结果是生成一个新的快照（并提交）。
 
-![通过合并操作来整合分叉了的历史。](../../../../images/basic-rebase-2.png)
+![通过合并操作来整合分叉了的历史。](../../../../../images/progit/basic-rebase-2.png)
 
 Figure 2. 通过合并操作来整合分叉的历史
 
@@ -42,7 +42,7 @@ Applying: added staged command
 最后以此将之前另存为临时文件的修改依序应用。 （译注：写明了 commit
 id，以便理解，下同）
 
-![将 \`C4\` 中的修改变基到 \`C3\` 上。](../../../../images/basic-rebase-3.png)
+![将 \`C4\` 中的修改变基到 \`C3\` 上。](../../../../../images/progit/basic-rebase-3.png)
 
 Figure 3. 将 `C4` 中的修改变基到 `C3` 上
 
@@ -53,7 +53,7 @@ $ git checkout master
 $ git merge experiment
 ```
 
-![\`master\` 分支的快进合并。](../../../../images/basic-rebase-4.png)
+![\`master\` 分支的快进合并。](../../../../../images/progit/basic-rebase-4.png)
 
 Figure 4. `master` 分支的快进合并
 
@@ -80,7 +80,7 @@ Figure 4. `master` 分支的快进合并
 上创建了主题分支 `client`，为客户端添加了一些功能，提交了 `C8` 和 `C9`。
 最后，你回到 `server` 分支，又提交了 `C10`。
 
-![从一个主题分支里再分出一个主题分支的提交历史。](../../../../images/interesting-rebase-1.png)
+![从一个主题分支里再分出一个主题分支的提交历史。](../../../../../images/progit/interesting-rebase-1.png)
 
 Figure 5. 从一个主题分支里再分出一个主题分支的提交历史
 
@@ -98,7 +98,7 @@ $ git rebase --onto master server client
 `client` 看起来像直接基于 `master`
 修改一样”。这理解起来有一点复杂，不过效果非常酷。
 
-![截取主题分支上的另一个主题分支，然后变基到其他分支。](../../../../images/interesting-rebase-2.png)
+![截取主题分支上的另一个主题分支，然后变基到其他分支。](../../../../../images/progit/interesting-rebase-2.png)
 
 Figure 6. 截取主题分支上的另一个主题分支，然后变基到其他分支
 
@@ -111,7 +111,7 @@ $ git merge client
 ```
 
 ![快进合并 \`master\` 分支，使之包含来自 \`client\`
-分支的修改。](../../../../images/interesting-rebase-3.png)
+分支的修改。](../../../../../images/progit/interesting-rebase-3.png)
 
 Figure 7. 快进合并 `master` 分支，使之包含来自 `client` 分支的修改
 
@@ -128,7 +128,7 @@ $ git rebase master server
 中的代码被“续”到了 `master` 后面。
 
 ![将 \`server\` 中的修改变基到 \`master\`
-上。](../../../../images/interesting-rebase-4.png)
+上。](../../../../../images/progit/interesting-rebase-4.png)
 
 Figure 8. 将 `server` 中的修改变基到 `master` 上
 
@@ -148,7 +148,7 @@ $ git branch -d client
 $ git branch -d server
 ```
 
-![最终的提交历史。](../../../../images/interesting-rebase-5.png)
+![最终的提交历史。](../../../../../images/progit/interesting-rebase-5.png)
 
 Figure 9. 最终的提交历史
 
@@ -170,14 +170,14 @@ Figure 9. 最终的提交历史
 假设你从一个中央服务器克隆然后在它的基础上进行了一些开发。
 你的提交历史如图所示：
 
-![克隆一个仓库，然后在它的基础上进行了一些开发。](../../../../images/perils-of-rebasing-1.png)
+![克隆一个仓库，然后在它的基础上进行了一些开发。](../../../../../images/progit/perils-of-rebasing-1.png)
 
 Figure 10. 克隆一个仓库，然后在它的基础上进行了一些开发
 
 然后，某人又向中央服务器提交了一些修改，其中还包括一次合并。
 你抓取了这些在远程分支上的修改，并将其合并到你本地的开发分支，然后你的提交历史就会变成这样：
 
-![抓取别人的提交，合并到自己的开发分支。](../../../../images/perils-of-rebasing-2.png)
+![抓取别人的提交，合并到自己的开发分支。](../../../../../images/progit/perils-of-rebasing-2.png)
 
 Figure 11. 抓取别人的提交，合并到自己的开发分支
 
@@ -185,7 +185,7 @@ Figure 11. 抓取别人的提交，合并到自己的开发分支
 `git push --force` 命令覆盖了服务器上的提交历史。
 之后你从服务器抓取更新，会发现多出来一些新的提交。
 
-![有人推送了经过变基的提交，并丢弃了你的本地开发所基于的一些提交。](../../../../images/perils-of-rebasing-3.png)
+![有人推送了经过变基的提交，并丢弃了你的本地开发所基于的一些提交。](../../../../../images/progit/perils-of-rebasing-3.png)
 
 Figure 12.
 有人推送了经过变基的提交，并丢弃了你的本地开发所基于的一些提交
@@ -193,7 +193,7 @@ Figure 12.
 结果就是你们两人的处境都十分尴尬。 如果你执行 `git pull`
 命令，你将合并来自两条提交历史的内容，生成一个新的合并提交，最终仓库会如图所示：
 
-![你将相同的内容又合并了一次，生成了一个新的提交。](../../../../images/perils-of-rebasing-4.png)
+![你将相同的内容又合并了一次，生成了一个新的提交。](../../../../../images/progit/perils-of-rebasing-4.png)
 
 Figure 13. 你将相同的内容又合并了一次，生成了一个新的提交
 
@@ -234,7 +234,7 @@ Git 将会：
 [在一个被变基然后强制推送的分支上再次执行变基](#_rebase_rebase_work)
 所示。
 
-![在一个被变基然后强制推送的分支上再次执行变基。](../../../../images/perils-of-rebasing-5.png)
+![在一个被变基然后强制推送的分支上再次执行变基。](../../../../../images/progit/perils-of-rebasing-5.png)
 
 Figure 14. 在一个被变基然后强制推送的分支上再次执行变基
 

@@ -43,7 +43,7 @@ export PS1='\w$(__git_ps1 " (%s)")\$ '
 因为有了这个自定义提示符，现在你的 `Bash` 提示符（`prompt`）在 Git
 仓库的任何子目录中都将显示成这样：
 
-![自定义的 \`bash\` 提示符（\`prompt\`）.](../../../../images/git-bash.png)
+![自定义的 \`bash\` 提示符（\`prompt\`）.](../../../../../images/progit/git-bash.png)
 
 Figure 1. 自定义的 `bash` 提示符（`prompt`）.
 

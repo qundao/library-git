@@ -150,7 +150,7 @@ $ git cat-file -p 99f1a6d12cb4b6f19c8655fca46c3ecf317074e0
 
 从概念上讲，Git 内部存储的数据有点像这样：
 
-![简化版的 Git 数据模型。](../../../../images/data-model-1.png)
+![简化版的 Git 数据模型。](../../../../../images/progit/data-model-1.png)
 
 Figure 1. 简化版的 Git 数据模型。
 
@@ -237,7 +237,7 @@ $ git cat-file -p 3c4e9cd789d88d8d89c1073707c3585e41b0e614
 `bak` 的子目录，该子目录包含 `test.txt` 文件的第一个版本。 可以认为 Git
 内部存储着的用于表示上述结构的数据是这样的：
 
-![当前 Git 的数据内容结构。](../../../../images/data-model-2.png)
+![当前 Git 的数据内容结构。](../../../../../images/progit/data-model-2.png)
 
 Figure 2. 当前 Git 的数据内容结构。
 
@@ -347,7 +347,7 @@ $ find .git/objects -type f
 
 如果跟踪所有的内部指针，将得到一个类似下面的对象关系图：
 
-![你的 Git 目录下所有可达的对象。](../../../../images/data-model-3.png)
+![你的 Git 目录下所有可达的对象。](../../../../../images/progit/data-model-3.png)
 
 Figure 3. 你的 Git 目录下所有可达的对象。
 

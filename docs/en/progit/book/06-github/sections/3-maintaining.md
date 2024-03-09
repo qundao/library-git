@@ -11,17 +11,17 @@ dashboard, or from the `+` button in the top toolbar next to your
 username as seen in [The “New repository”
 dropdown](#_new_repo_dropdown).
 
-![The “Your repositories” area](../../../../images/newrepo.png)
+![The “Your repositories” area](../../../../../images/progit/newrepo.png)
 
 Figure 1. The “Your repositories” area
 
-![The “New repository” dropdown](../../../../images/new-repo.png)
+![The “New repository” dropdown](../../../../../images/progit/new-repo.png)
 
 Figure 2. The “New repository” dropdown
 
 This takes you to the “new repository” form:
 
-![The “new repository” form](../../../../images/newrepoform.png)
+![The “new repository” form](../../../../../images/progit/newrepoform.png)
 
 Figure 3. The “new repository” form
 
@@ -55,7 +55,7 @@ access to the project and Git repository.
 
 Click the “Settings” link at the bottom of the right-hand sidebar.
 
-![The repository settings link](../../../../images/reposettingslink.png)
+![The repository settings link](../../../../../images/progit/reposettingslink.png)
 
 Figure 4. The repository settings link
 
@@ -65,7 +65,7 @@ repeat this as many times as you like to grant access to everyone you
 like. If you need to revoke access, just click the “X” on the right-hand
 side of their row.
 
-![The repository collaborators box](../../../../images/collaborators.png)
+![The repository collaborators box](../../../../../images/progit/collaborators.png)
 
 Figure 5. The repository collaborators box
 
@@ -91,7 +91,7 @@ Request. You should get an email notifying you about the new Pull
 Request and it should look something like [Email notification of a new
 Pull Request](#_email_pr).
 
-![Email notification of a new Pull Request](../../../../images/maint-01-email.png)
+![Email notification of a new Pull Request](../../../../../images/progit/maint-01-email.png)
 
 Figure 6. Email notification of a new Pull Request
 
@@ -131,7 +131,7 @@ happening and you can also directly respond to the email to comment on
 the Pull Request thread.
 
 ![Responses to emails are included in the
-thread](../../../../images/maint-03-email-resp.png)
+thread](../../../../../images/progit/maint-03-email-resp.png)
 
 Figure 7. Responses to emails are included in the thread
 
@@ -149,7 +149,7 @@ Pull Request manually](#_merge_button), GitHub gives you all of this
 information if you click the hint link.
 
 ![Merge button and instructions for merging a Pull Request
-manually](../../../../images/maint-02-merge.png)
+manually](../../../../../images/progit/maint-02-merge.png)
 
 Figure 8. Merge button and instructions for merging a Pull Request
 manually
@@ -304,7 +304,7 @@ right of that box you can change not only the branches but also which
 fork.
 
 ![Manually change the Pull Request target fork and
-branch](../../../../images/maint-04-target.png)
+branch](../../../../../images/progit/maint-04-target.png)
 
 Figure 9. Manually change the Pull Request target fork and branch
 
@@ -321,7 +321,7 @@ In any comment you can start typing a `@` character and it will begin to
 autocomplete with the names and usernames of people who are
 collaborators or contributors in the project.
 
-![Start typing @ to mention someone](../../../../images/maint-05-mentions.png)
+![Start typing @ to mention someone](../../../../../images/progit/maint-05-mentions.png)
 
 Figure 10. Start typing @ to mention someone
 
@@ -343,7 +343,7 @@ something. If you no longer wish to receive notifications, there is an
 on it.
 
 ![Unsubscribe from an Issue or Pull
-Request](../../../../images/maint-06-unsubscribe.png)
+Request](../../../../../images/progit/maint-06-unsubscribe.png)
 
 Figure 11. Unsubscribe from an Issue or Pull Request
 
@@ -355,7 +355,7 @@ happen and there are a few different ways you can configure them. If you
 go to the “Notification center” tab from the settings page, you can see
 some of the options you have.
 
-![Notification center options](../../../../images/maint-07-notifications.png)
+![Notification center options](../../../../../images/progit/maint-07-notifications.png)
 
 Figure 12. Notification center options
 
@@ -371,7 +371,7 @@ notification is triggered for you, you will see a small blue dot over
 your notifications icon at the top of your screen as seen in
 [Notification center](#_not_center).
 
-![Notification center](../../../../images/maint-08-notifications-page.png)
+![Notification center](../../../../../images/progit/maint-08-notifications-page.png)
 
 Figure 13. Notification center
 
@@ -472,7 +472,7 @@ GitHub will show [Opening a Pull Request when a CONTRIBUTING file
 exists](#_contrib_file) when anyone starts opening a Pull Request.
 
 ![Opening a Pull Request when a CONTRIBUTING file
-exists](../../../../images/maint-09-contrib.png)
+exists](../../../../../images/progit/maint-09-contrib.png)
 
 Figure 14. Opening a Pull Request when a CONTRIBUTING file exists
 
@@ -493,7 +493,7 @@ that you want people to open Pull Requests on or see by default, you can
 change that in your repository’s settings page under the “Options” tab.
 
 ![Change the default branch for a
-project](../../../../images/maint-10-default-branch.png)
+project](../../../../../images/progit/maint-10-default-branch.png)
 
 Figure 15. Change the default branch for a project
 
@@ -509,7 +509,7 @@ bottom of the same “Options” tab of your repository settings page that
 allows you to do this.
 
 ![Transfer a project to another GitHub user or
-Organization](../../../../images/maint-11-transfer.png)
+Organization](../../../../../images/progit/maint-11-transfer.png)
 
 Figure 16. Transfer a project to another GitHub user or Organization
 

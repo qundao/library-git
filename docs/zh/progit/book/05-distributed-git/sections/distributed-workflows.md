@@ -17,7 +17,7 @@
 **仓库**，可以接受代码，所有人将自己的工作与之同步。
 若干个开发者则作为节点，即中心仓库的消费者与中心仓库同步。
 
-![集中式工作流。](../../../../images/centralized_workflow.png)
+![集中式工作流。](../../../../../images/progit/centralized_workflow.png)
 
 Figure 1. 集中式工作流。
 
@@ -60,7 +60,7 @@ Git
 
 6.  维护者将合并后的修改推送到主仓库。
 
-![集成管理者工作流。](../../../../images/integration-manager.png)
+![集成管理者工作流。](../../../../../images/progit/integration-manager.png)
 
 Figure 2. 集成管理者工作流。
 
@@ -90,7 +90,7 @@ Linux 内核项目。 被称为 **副主管（lieutenant）**
 4.  最后，主管将集成后的 `master`
     分支推送到参考仓库中，以便所有其他开发者以此为基础进行变基。
 
-![主管与副主管工作流。](../../../../images/benevolent-dictator.png)
+![主管与副主管工作流。](../../../../../images/progit/benevolent-dictator.png)
 
 Figure 3. 主管与副主管工作流。
 

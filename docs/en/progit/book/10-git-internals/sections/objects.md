@@ -163,7 +163,7 @@ $ git cat-file -p 99f1a6d12cb4b6f19c8655fca46c3ecf317074e0
 
 Conceptually, the data that Git is storing looks something like this:
 
-![Simple version of the Git data model](../../../../images/data-model-1.png)
+![Simple version of the Git data model](../../../../../images/progit/data-model-1.png)
 
 Figure 1. Simple version of the Git data model
 
@@ -258,7 +258,7 @@ subdirectory named `bak` that contained the first version of the
 structures as being like this:
 
 ![The content structure of your current Git
-data](../../../../images/data-model-2.png)
+data](../../../../../images/progit/data-model-2.png)
 
 Figure 2. The content structure of your current Git data
 
@@ -374,7 +374,7 @@ If you follow all the internal pointers, you get an object graph
 something like this:
 
 ![All the reachable objects in your Git
-directory](../../../../images/data-model-3.png)
+directory](../../../../../images/progit/data-model-3.png)
 
 Figure 3. All the reachable objects in your Git directory
 

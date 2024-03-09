@@ -603,7 +603,7 @@ Merge commits are no different. Let’s say you started work on a topic
 branch, accidentally merged it into `master`, and now your commit
 history looks like this:
 
-![Accidental merge commit](../../../../images/undomerge-start.png)
+![Accidental merge commit](../../../../../images/progit/undomerge-start.png)
 
 Figure 1. Accidental merge commit
 
@@ -618,7 +618,7 @@ where you want them to. In most cases, if you follow the errant
 `git merge` with `git reset --hard HEAD~`, this will reset the branch
 pointers so they look like this:
 
-![History after \`git reset --hard HEAD~\`](../../../../images/undomerge-reset.png)
+![History after \`git reset --hard HEAD~\`](../../../../../images/progit/undomerge-reset.png)
 
 Figure 2. History after `git reset --hard HEAD~`
 
@@ -663,7 +663,7 @@ while keeping all the content from parent \#1 (`C6`).
 
 The history with the revert commit looks like this:
 
-![History after \`git revert -m 1\`](../../../../images/undomerge-revert.png)
+![History after \`git revert -m 1\`](../../../../../images/progit/undomerge-revert.png)
 
 Figure 3. History after `git revert -m 1`
 
@@ -681,7 +681,7 @@ There’s nothing in `topic` that isn’t already reachable from `master`.
 What’s worse, if you add work to `topic` and merge again, Git will only
 bring in the changes *since* the reverted merge:
 
-![History with a bad merge](../../../../images/undomerge-revert2.png)
+![History with a bad merge](../../../../../images/progit/undomerge-revert2.png)
 
 Figure 4. History with a bad merge
 
@@ -696,7 +696,7 @@ $ git merge topic
 ```
 
 ![History after re-merging a reverted
-merge](../../../../images/undomerge-revert3.png)
+merge](../../../../../images/progit/undomerge-revert3.png)
 
 Figure 5. History after re-merging a reverted merge
 

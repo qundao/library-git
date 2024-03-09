@@ -26,7 +26,7 @@ you need a hotfix. You’ll do the following:
 First, let’s say you’re working on your project and have a couple of
 commits already on the `master` branch.
 
-![A simple commit history](../../../../images/basic-branching-1.png)
+![A simple commit history](../../../../../images/progit/basic-branching-1.png)
 
 Figure 1. A simple commit history
 
@@ -47,7 +47,7 @@ $ git branch iss53
 $ git checkout iss53
 ```
 
-![Creating a new branch pointer](../../../../images/basic-branching-2.png)
+![Creating a new branch pointer](../../../../../images/progit/basic-branching-2.png)
 
 Figure 2. Creating a new branch pointer
 
@@ -61,7 +61,7 @@ $ git commit -a -m 'Create new footer [issue 53]'
 ```
 
 ![The \`iss53\` branch has moved forward with your
-work](../../../../images/basic-branching-3.png)
+work](../../../../../images/progit/basic-branching-3.png)
 
 Figure 3. The `iss53` branch has moved forward with your work
 
@@ -106,7 +106,7 @@ $ git commit -a -m 'Fix broken email address'
  1 file changed, 2 insertions(+)
 ```
 
-![Hotfix branch based on \`master\`](../../../../images/basic-branching-4.png)
+![Hotfix branch based on \`master\`](../../../../../images/progit/basic-branching-4.png)
 
 Figure 4. Hotfix branch based on `master`
 
@@ -136,7 +136,7 @@ Your change is now in the snapshot of the commit pointed to by the
 `master` branch, and you can deploy the fix.
 
 ![\`master\` is fast-forwarded to
-\`hotfix\`](../../../../images/basic-branching-5.png)
+\`hotfix\`](../../../../../images/progit/basic-branching-5.png)
 
 Figure 5. `master` is fast-forwarded to `hotfix`
 
@@ -163,7 +163,7 @@ $ git commit -a -m 'Finish the new footer [issue 53]'
 1 file changed, 1 insertion(+)
 ```
 
-![Work continues on \`iss53\`](../../../../images/basic-branching-6.png)
+![Work continues on \`iss53\`](../../../../../images/progit/basic-branching-6.png)
 
 Figure 6. Work continues on `iss53`
 
@@ -197,7 +197,7 @@ the branch you’re merging in, Git has to do some work. In this case, Git
 does a simple three-way merge, using the two snapshots pointed to by the
 branch tips and the common ancestor of the two.
 
-![Three snapshots used in a typical merge](../../../../images/basic-merging-1.png)
+![Three snapshots used in a typical merge](../../../../../images/progit/basic-merging-1.png)
 
 Figure 7. Three snapshots used in a typical merge
 
@@ -206,7 +206,7 @@ snapshot that results from this three-way merge and automatically
 creates a new commit that points to it. This is referred to as a merge
 commit, and is special in that it has more than one parent.
 
-![A merge commit](../../../../images/basic-merging-2.png)
+![A merge commit](../../../../../images/progit/basic-merging-2.png)
 
 Figure 8. A merge commit
 

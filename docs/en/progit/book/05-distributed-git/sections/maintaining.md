@@ -383,11 +383,11 @@ topic branches](#merwf_a), and we merge `ruby_client` followed by
 `php_client`, your history will end up looking like [After a topic
 branch merge](#merwf_b).
 
-![History with several topic branches](../../../../images/merging-workflows-1.png)
+![History with several topic branches](../../../../../images/progit/merging-workflows-1.png)
 
 Figure 1. History with several topic branches
 
-![After a topic branch merge](../../../../images/merging-workflows-2.png)
+![After a topic branch merge](../../../../../images/progit/merging-workflows-2.png)
 
 Figure 2. After a topic branch merge
 
@@ -406,15 +406,15 @@ the public repository. Each time you have a new topic branch to merge in
 you fast-forward `master` to wherever the now-stable `develop` branch is
 ([After a project release](#merwf_e)).
 
-![Before a topic branch merge](../../../../images/merging-workflows-3.png)
+![Before a topic branch merge](../../../../../images/progit/merging-workflows-3.png)
 
 Figure 3. Before a topic branch merge
 
-![After a topic branch merge](../../../../images/merging-workflows-4.png)
+![After a topic branch merge](../../../../../images/progit/merging-workflows-4.png)
 
 Figure 4. After a topic branch merge
 
-![After a project release](../../../../images/merging-workflows-5.png)
+![After a project release](../../../../../images/progit/merging-workflows-5.png)
 
 Figure 5. After a project release
 
@@ -441,7 +441,7 @@ merged into `next`, and that branch is pushed up so everyone can try the
 topics integrated together.
 
 ![Managing a complex series of parallel contributed topic
-branches](../../../../images/large-merges-1.png)
+branches](../../../../../images/progit/large-merges-1.png)
 
 Figure 6. Managing a complex series of parallel contributed topic
 branches
@@ -453,7 +453,7 @@ into `master`. The `next` and `seen` branches are then rebuilt from the
 rebased occasionally, and `seen` is rebased even more often:
 
 ![Merging contributed topic branches into long-term integration
-branches](../../../../images/large-merges-2.png)
+branches](../../../../../images/progit/large-merges-2.png)
 
 Figure 7. Merging contributed topic branches into long-term integration
 branches
@@ -490,7 +490,7 @@ of them, or if you only have one commit on a topic branch and you’d
 prefer to cherry-pick it rather than run rebase. For example, suppose
 you have a project that looks like this:
 
-![Example history before a cherry-pick](../../../../images/rebasing-1.png)
+![Example history before a cherry-pick](../../../../../images/progit/rebasing-1.png)
 
 Figure 8. Example history before a cherry-pick
 
@@ -509,7 +509,7 @@ commit SHA-1 value, because the date applied is different. Now your
 history looks like this:
 
 ![History after cherry-picking a commit on a topic
-branch](../../../../images/rebasing-2.png)
+branch](../../../../../images/progit/rebasing-2.png)
 
 Figure 9. History after cherry-picking a commit on a topic branch
 

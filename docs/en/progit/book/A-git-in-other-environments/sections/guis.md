@@ -38,7 +38,7 @@ to the underlying `git log` action. Probably one of the most useful is
 the `--all` flag, which tells `gitk` to show commits reachable from
 *any* ref, not just HEAD. Gitk’s interface looks like this:
 
-![The \`gitk\` history viewer](../../../../images/gitk.png)
+![The \`gitk\` history viewer](../../../../../images/progit/gitk.png)
 
 Figure 1. The `gitk` history viewer
 
@@ -59,7 +59,7 @@ $ git gui
 
 And it looks something like this:
 
-![The \`git-gui\` commit tool](../../../../images/git-gui.png)
+![The \`git-gui\` commit tool](../../../../../images/progit/git-gui.png)
 
 Figure 2. The `git-gui` commit tool
 
@@ -93,11 +93,11 @@ tools – rather than expose *all* of Git’s functionality, they instead
 focus on a curated set of commonly-used features that work well
 together. They look like this:
 
-![GitHub for macOS](../../../../images/github_mac.png)
+![GitHub for macOS](../../../../../images/progit/github_mac.png)
 
 Figure 3. GitHub for macOS
 
-![GitHub for Windows](../../../../images/github_win.png)
+![GitHub for Windows](../../../../../images/progit/github_win.png)
 
 Figure 4. GitHub for Windows
 
@@ -161,14 +161,14 @@ Branch management is one of the areas where the two tools diverge. On
 macOS, there’s a button at the top of the window for creating a new
 branch:
 
-![“Create Branch” button on macOS](../../../../images/branch_widget_mac.png)
+![“Create Branch” button on macOS](../../../../../images/progit/branch_widget_mac.png)
 
 Figure 5. “Create Branch” button on macOS
 
 On Windows, this is done by typing the new branch’s name in the
 branch-switching widget:
 
-![Creating a branch on Windows](../../../../images/branch_widget_win.png)
+![Creating a branch on Windows](../../../../../images/progit/branch_widget_win.png)
 
 Figure 6. Creating a branch on Windows
 

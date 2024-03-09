@@ -17,7 +17,7 @@ Request，简称 PR）来让他们的改动进入源版本库，下文我们会�
 
 你可以通过点击项目页面右上角的“Fork”按钮，来派生这个项目。
 
-![“Fork”按钮.](../../../../images/forkbutton.png)
+![“Fork”按钮.](../../../../../images/progit/forkbutton.png)
 
 Figure 1. “Fork”按钮
 
@@ -62,7 +62,7 @@ Tony 在找一些能在他的 Arduino 微控制器上运行的代码，他觉得
 [https://github.com/schacon/blink](https://github.com/schacon/blink)
 中的代码不错。
 
-![他想要做出贡献的项目](../../../../images/blink-01-start.png)
+![他想要做出贡献的项目](../../../../../images/progit/blink-01-start.png)
 
 Figure 2. 他想要做出贡献的项目
 
@@ -136,7 +136,7 @@ To https://github.com/tonychacon/blink
 你也可以到“Branches”（分支）页面查看分支并创建拉取请求：
 `https://github.com/<用户名>/<项目名>/branches`
 
-![拉取请求按钮](../../../../images/blink-02-pr.png)
+![拉取请求按钮](../../../../../images/progit/blink-02-pr.png)
 
 Figure 3. 拉取请求按钮
 
@@ -146,7 +146,7 @@ Figure 3. 拉取请求按钮
 
 同时我们也能看到比主分支中所“领先”（ahead）的提交（在这个例子中只有一个）以及所有将会被合并的改动与之前代码的对比。
 
-![拉取请求创建页面](../../../../images/blink-03-pull-request-open.png)
+![拉取请求创建页面](../../../../../images/progit/blink-03-pull-request-open.png)
 
 Figure 4. 拉取请求创建页面
 
@@ -165,7 +165,7 @@ request”（创建拉取请求）的按钮后，这个项目的拥有者将会�
 中提到的工作流程那样，但是在 GitHub，这些都在线上完成。
 项目的拥有者可以审查修改，只需要单击某一行，就可以对其发表评论。
 
-![拉取请求中对某一行的评论](../../../../images/blink-04-pr-comment.png)
+![拉取请求中对某一行的评论](../../../../../images/progit/blink-04-pr-comment.png)
 
 Figure 5. 对拉取请求内的特定一行发表评论
 
@@ -173,7 +173,7 @@ Figure 5. 对拉取请求内的特定一行发表评论
 我们待会儿将会告诉你如何修改这项设置。现在，如果 Tony
 有开启电子邮件提醒，他将会收到这样的一封邮件：
 
-![电子邮件提醒](../../../../images/blink-04-email.png)
+![电子邮件提醒](../../../../../images/progit/blink-04-email.png)
 
 Figure 6. 通过电子邮件发送的评论提醒
 
@@ -181,7 +181,7 @@ Figure 6. 通过电子邮件发送的评论提醒
 里我们可以看到项目拥有者对某行代码发表评论，
 并在讨论区留下了一个普通评论。你可以看到被评论的代码也会在互动中显示出来。
 
-![拉取请求讨论页面](../../../../images/blink-05-general-comment.png)
+![拉取请求讨论页面](../../../../../images/progit/blink-05-general-comment.png)
 
 Figure 7. 拉取请求讨论页面
 
@@ -194,7 +194,7 @@ Figure 7. 拉取请求讨论页面
 对现有的拉取请求添加提交并不会触发提醒，因此 Tony 在推送了他的修正后，
 还需要通过评论告知项目拥有者他完成了修改请求。
 
-![最终的拉取请求](../../../../images/blink-06-final.png)
+![最终的拉取请求](../../../../../images/progit/blink-06-final.png)
 
 Figure 8. 最终的拉取请求
 
@@ -248,7 +248,7 @@ Changed”（更改的文件）选项卡，你将会看到“整理过的”差�
 如果你的拉取请求由于过时或其他原因不能干净地合并，你需要进行修复才能让维护者对其进行合并。
 GitHub 会对每个提交进行测试，让你知道你的拉取请求能否简洁的合并。
 
-![拉取请求合并失败](../../../../images/pr-01-fail.png)
+![拉取请求合并失败](../../../../../images/progit/pr-01-fail.png)
 
 Figure 9. 不能进行干净合并
 
@@ -312,7 +312,7 @@ To https://github.com/tonychacon/blink
 
 你完成了上面的步骤后，拉取请求将会自动更新并重新检查是否能干净的合并。
 
-![修复了的拉取请求](../../../../images/pr-02-merge-fix.png)
+![修复了的拉取请求](../../../../../images/progit/pr-02-merge-fix.png)
 
 Figure 10. 拉取请求现在可以干净地合并了
 
@@ -344,13 +344,13 @@ GitHub 上的几乎任何地方引用其他东西。
 我们同时希望引用一个派生出的项目中的议题和一个完全不同的项目中的议题，
 就可以像 [在拉取请求中的交叉引用](#_pr_references) 这样填写描述。
 
-![拉取请求中的引用](../../../../images/mentions-01-syntax.png)
+![拉取请求中的引用](../../../../../images/progit/mentions-01-syntax.png)
 
 Figure 11. 在拉取请求中的交叉引用
 
 当我们提交了这个拉取请求，我们将会看到以上内容被渲染成这样：[在拉取请求中渲染后的交叉引用](#_pr_references_render)
 
-![渲染后的拉取请求中的引用](../../../../images/mentions-02-render.png)
+![渲染后的拉取请求中的引用](../../../../../images/progit/mentions-02-render.png)
 
 Figure 12. 在拉取请求中渲染后的交叉引用
 
@@ -361,7 +361,7 @@ Figure 12. 在拉取请求中渲染后的交叉引用
 这意味着任何查看这个拉取请求的人可以轻松地访问新的拉取请求。
 这个链接就像 [在拉取请求中渲染后的交叉引用](#_pr_closed) 中展示的那样。
 
-![拉取请求关闭](../../../../images/mentions-03-closed.png)
+![拉取请求关闭](../../../../../images/progit/mentions-03-closed.png)
 
 Figure 13. 在拉取请求中渲染后的交叉引用
 
@@ -379,7 +379,7 @@ Figure 13. 在拉取请求中渲染后的交叉引用
 查看 [一个 Markdown 的示例和渲染效果](#_example_markdown)
 里的示例来了解如何书写评论或文本，并通过 Markdown 进行渲染。
 
-![Markdown 示例](../../../../images/markdown-01-example.png)
+![Markdown 示例](../../../../../images/progit/markdown-01-example.png)
 
 Figure 14. 一个 Markdown 的示例和渲染效果
 
@@ -405,7 +405,7 @@ GitHub 风格的 Markdown 增加了一些基础的 Markdown 中做不到的东�
 如果我们将这个列表加入拉取请求或议题的描述中，它将会被渲染 [Markdown
 评论中渲染后的任务列表](#_eg_task_lists) 这样。
 
-![任务列表示例](../../../../images/markdown-02-tasks.png)
+![任务列表示例](../../../../../images/progit/markdown-02-tasks.png)
 
 Figure 15. Markdown 评论中渲染后的任务列表
 
@@ -419,7 +419,7 @@ Markdown。
 你可以在 [在拉取请求列表中的任务列表总结](#_task_list_progress)
 看到一个例子。
 
-![任务列表示例](../../../../images/markdown-03-task-summary.png)
+![任务列表示例](../../../../../images/progit/markdown-03-task-summary.png)
 
 Figure 16. 在拉取请求列表中的任务列表总结
 
@@ -446,7 +446,7 @@ for(int i=0 ; i < 5 ; i++)
 在下面的例子中，它最终会渲染成这个样子：
 [渲染后的代码片段示例](#_md_code) 。
 
-![渲染后的代码片段](../../../../images/markdown-04-fenced-code.png)
+![渲染后的代码片段](../../../../../images/progit/markdown-04-fenced-code.png)
 
 Figure 17. 渲染后的代码片段示例
 
@@ -468,7 +468,7 @@ How big are these slings and in particular, these arrows?
 
 经过渲染后，就会变成这样： [渲染后的引用示例](#_md_quote)
 
-![渲染后的引用](../../../../images/markdown-05-quote.png)
+![渲染后的引用](../../../../../images/progit/markdown-05-quote.png)
 
 Figure 18. 渲染后的引用示例
 
@@ -478,7 +478,7 @@ Figure 18. 渲染后的引用示例
 的议题和拉取请求的评论中。 GitHub 上甚至有表情助手。如果你在输入评论时以
 `:` 开头，自动完成器会帮助你找到你需要的表情。
 
-![表情符号自动完成器](../../../../images/markdown-06-emoji-complete.png)
+![表情符号自动完成器](../../../../../images/progit/markdown-06-emoji-complete.png)
 
 Figure 19. 表情符号自动完成器
 
@@ -497,7 +497,7 @@ I :eyes: that :bug: and I :cold_sweat:.
 
 渲染之后，就会变成这样： [使用了大量表情符号的评论](#_md_emoji)
 
-![Emoji](../../../../images/markdown-07-emoji.png)
+![Emoji](../../../../../images/progit/markdown-07-emoji.png)
 
 Figure 20. 使用了大量表情符号的评论
 
@@ -511,7 +511,7 @@ Figure 20. 使用了大量表情符号的评论
 如果不想使用 Markdown 语法来插入图片，GitHub
 允许你通过拖拽图片到文本区来插入图片。
 
-![拖拽插入图片](../../../../images/markdown-08-drag-drop.png)
+![拖拽插入图片](../../../../../images/progit/markdown-08-drag-drop.png)
 
 Figure 21. 通过拖拽的方式自动插入图片
 

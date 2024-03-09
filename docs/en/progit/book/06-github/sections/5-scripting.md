@@ -23,7 +23,7 @@ you will see something like [Services and Hooks configuration
 section](#_services_hooks).
 
 ![Services and Hooks configuration
-section](../../../../images/scripting-01-services.png)
+section](../../../../../images/progit/scripting-01-services.png)
 
 Figure 1. Services and Hooks configuration section
 
@@ -35,7 +35,7 @@ very simple one, the Email hook. If you choose “email” from the “Add
 Service” dropdown, you’ll get a configuration screen like [Email service
 configuration](#_service_config).
 
-![Email service configuration](../../../../images/scripting-02-email-service.png)
+![Email service configuration](../../../../../images/progit/scripting-02-email-service.png)
 
 Figure 2. Email service configuration
 
@@ -66,7 +66,7 @@ To enable a hook, you click the “Add webhook” button in [Services and
 Hooks configuration section](#_services_hooks). This will bring you to a
 page that looks like [Web hook configuration](#_web_hook).
 
-![Web hook configuration](../../../../images/scripting-03-webhook.png)
+![Web hook configuration](../../../../../images/progit/scripting-03-webhook.png)
 
 Figure 3. Web hook configuration
 
@@ -129,7 +129,7 @@ webhook. For each hook you can dig down into when it was delivered, if
 it was successful and the body and headers for both the request and the
 response. This makes it incredibly easy to test and debug your hooks.
 
-![Web hook debugging information](../../../../images/scripting-04-webhook-debug.png)
+![Web hook debugging information](../../../../../images/progit/scripting-04-webhook-debug.png)
 
 Figure 4. Web hook debugging information
 
@@ -213,7 +213,7 @@ to use a personal access token. You can generate this from the
 “Applications” tab of your settings page.
 
 ![Generate your access token from the “Applications” tab of your
-settings page](../../../../images/scripting-05-access-token.png)
+settings page](../../../../../images/progit/scripting-05-access-token.png)
 
 Figure 5. Generate your access token from the “Applications” tab of your
 settings page
@@ -262,7 +262,7 @@ Now if you go to that issue, you can see the comment that we just
 successfully posted as in [A comment posted from the GitHub
 API](#_api_comment).
 
-![A comment posted from the GitHub API](../../../../images/scripting-06-comment.png)
+![A comment posted from the GitHub API](../../../../../images/progit/scripting-06-comment.png)
 
 Figure 6. A comment posted from the GitHub API
 
@@ -348,7 +348,7 @@ field is how they’re differentiated.
 If someone opens a new Pull Request on GitHub and this hook is set up,
 you may see something like [Commit status via the API](#_commit_status).
 
-![Commit status via the API](../../../../images/scripting-07-status.png)
+![Commit status via the API](../../../../../images/progit/scripting-07-status.png)
 
 Figure 7. Commit status via the API
 

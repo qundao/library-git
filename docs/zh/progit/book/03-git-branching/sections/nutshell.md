@@ -34,13 +34,13 @@ $ git commit -m 'The initial commit of my project'
 **树** 对象 （记录着目录结构和 blob 对象索引）以及一个 **提交**
 对象（包含着指向前述树对象的指针和所有提交信息）。
 
-![首次提交对象及其树结构。](../../../../images/commit-and-tree.png)
+![首次提交对象及其树结构。](../../../../../images/progit/commit-and-tree.png)
 
 Figure 1. 首次提交对象及其树结构
 
 做些修改后再次提交，那么这次产生的提交对象会包含一个指向上次提交对象（父对象）的指针。
 
-![提交对象及其父对象。](../../../../images/commits-and-parents.png)
+![提交对象及其父对象。](../../../../../images/progit/commits-and-parents.png)
 
 Figure 2. 提交对象及其父对象
 
@@ -51,7 +51,7 @@ Git 的分支，其实本质上仅仅是指向提交对象的可变指针。 Git
 
 [TABLE]
 
-![分支及其提交历史。](../../../../images/branch-and-history.png)
+![分支及其提交历史。](../../../../../images/progit/branch-and-history.png)
 
 Figure 3. 分支及其提交历史
 
@@ -67,7 +67,7 @@ $ git branch testing
 
 这会在当前所在的提交对象上创建一个指针。
 
-![两个指向相同提交历史的分支。](../../../../images/two-branches.png)
+![两个指向相同提交历史的分支。](../../../../../images/progit/two-branches.png)
 
 Figure 4. 两个指向相同提交历史的分支
 
@@ -78,7 +78,7 @@ CVS）里的 `HEAD` 概念完全不同。 在 Git
 想象为当前分支的别名）。 在本例中，你仍然在 `master` 分支上。 因为
 `git branch` 命令仅仅 **创建** 一个新分支，并不会自动切换到新分支中去。
 
-![HEAD 指向当前所在的分支。](../../../../images/head-to-master.png)
+![HEAD 指向当前所在的分支。](../../../../../images/progit/head-to-master.png)
 
 Figure 5. HEAD 指向当前所在的分支
 
@@ -106,7 +106,7 @@ $ git checkout testing
 
 这样 `HEAD` 就指向 `testing` 分支了。
 
-![HEAD 指向当前所在的分支。](../../../../images/head-to-testing.png)
+![HEAD 指向当前所在的分支。](../../../../../images/progit/head-to-testing.png)
 
 Figure 6. HEAD 指向当前所在的分支
 
@@ -117,7 +117,7 @@ $ vim test.rb
 $ git commit -a -m 'made a change'
 ```
 
-![HEAD 分支随着提交操作自动向前移动。](../../../../images/advance-testing.png)
+![HEAD 分支随着提交操作自动向前移动。](../../../../../images/progit/advance-testing.png)
 
 Figure 7. HEAD 分支随着提交操作自动向前移动
 
@@ -129,7 +129,7 @@ Figure 7. HEAD 分支随着提交操作自动向前移动
 $ git checkout master
 ```
 
-![检出时 HEAD 随之移动。](../../../../images/checkout-master.png)
+![检出时 HEAD 随之移动。](../../../../../images/progit/checkout-master.png)
 
 Figure 8. 检出时 HEAD 随之移动
 
@@ -155,7 +155,7 @@ master 分支进行了另外一些工作。
 上述两次改动针对的是不同分支：你可以在不同分支间不断地来回切换和工作，并在时机成熟时将它们合并起来。
 而所有这些工作，你需要的命令只有 `branch`、`checkout` 和 `commit`。
 
-![项目分叉历史。](../../../../images/advance-master.png)
+![项目分叉历史。](../../../../../images/progit/advance-master.png)
 
 Figure 9. 项目分叉历史
 

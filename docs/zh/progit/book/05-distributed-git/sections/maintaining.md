@@ -330,11 +330,11 @@ $ git diff master...contrib
 `php_client` 分支，那么提交历史最后会变成 [合并主题分支之后。](#merwf_b)
 的样子。
 
-![包含若干主题分支的提交历史。](../../../../images/merging-workflows-1.png)
+![包含若干主题分支的提交历史。](../../../../../images/progit/merging-workflows-1.png)
 
 Figure 1. 包含若干主题分支的提交历史。
 
-![合并主题分支之后。](../../../../images/merging-workflows-2.png)
+![合并主题分支之后。](../../../../../images/progit/merging-workflows-2.png)
 
 Figure 2. 合并主题分支之后。
 
@@ -351,15 +351,15 @@ Figure 2. 合并主题分支之后。
 `master` 分支快进到已经稳定的 `develop`
 分支（[一次发布之后。](#merwf_e)）。
 
-![合并主题分支前。](../../../../images/merging-workflows-3.png)
+![合并主题分支前。](../../../../../images/progit/merging-workflows-3.png)
 
 Figure 3. 合并主题分支前。
 
-![合并主题分支后。](../../../../images/merging-workflows-4.png)
+![合并主题分支后。](../../../../../images/progit/merging-workflows-4.png)
 
 Figure 4. 合并主题分支后。
 
-![一次发布之后。](../../../../images/merging-workflows-5.png)
+![一次发布之后。](../../../../../images/progit/merging-workflows-5.png)
 
 Figure 5. 一次发布之后。
 
@@ -380,7 +380,7 @@ updates）和用于维护性向后移植工作（maintenance backports）的 `ma
 安全的主题分支会被合并入 `next`
 分支，之后该分支会被推送使得所有人都可以尝试整合到一起的特性。
 
-![管理复杂的一系列接收贡献的平行主题分支。](../../../../images/large-merges-1.png)
+![管理复杂的一系列接收贡献的平行主题分支。](../../../../../images/progit/large-merges-1.png)
 
 Figure 6. 管理复杂的一系列接收贡献的平行主题分支。
 
@@ -389,7 +389,7 @@ Figure 6. 管理复杂的一系列接收贡献的平行主题分支。
 分支始终在进行快进，`next` 分支偶尔会被变基，而 `pu`
 分支的变基比较频繁：
 
-![将贡献的主题分支并入长期整合分支。](../../../../images/large-merges-2.png)
+![将贡献的主题分支并入长期整合分支。](../../../../../images/progit/large-merges-2.png)
 
 Figure 7. 将贡献的主题分支并入长期整合分支。
 
@@ -417,7 +417,7 @@ Figure 7. 将贡献的主题分支并入长期整合分支。
 这种方式在你只想引入主题分支中的某个提交，或者主题分支中只有一个提交，而你不想运行变基时很有用。
 举个例子，假设你的项目提交历史类似：
 
-![拣选之前的示例历史。](../../../../images/rebasing-1.png)
+![拣选之前的示例历史。](../../../../../images/progit/rebasing-1.png)
 
 Figure 8. 拣选之前的示例历史。
 
@@ -434,7 +434,7 @@ Finished one cherry-pick.
 相同的更改，但是因为应用的日期不同，你会得到一个新的提交 SHA-1 值。
 现在你的历史会变成这样：
 
-![拣选主题分支中的一个提交后的历史。](../../../../images/rebasing-2.png)
+![拣选主题分支中的一个提交后的历史。](../../../../../images/progit/rebasing-2.png)
 
 Figure 9. 拣选主题分支中的一个提交后的历史。
 

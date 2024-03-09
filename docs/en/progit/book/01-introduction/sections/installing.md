@@ -49,7 +49,7 @@ binary installer. A macOS Git installer is maintained and available for
 download at the Git website, at
 [https://git-scm.com/download/mac](https://git-scm.com/download/mac).
 
-![Git macOS installer](../../../../images/git-osx-installer.png)
+![Git macOS installer](../../../../../images/progit/git-osx-installer.png)
 
 Figure 1. Git macOS installer
 

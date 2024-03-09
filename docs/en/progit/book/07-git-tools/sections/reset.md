@@ -105,7 +105,7 @@ $ tree
 Git’s typical workflow is to record snapshots of your project in
 successively better states, by manipulating these three trees.
 
-![Git’s typical workflow](../../../../images/reset-workflow.png)
+![Git’s typical workflow](../../../../../images/progit/reset-workflow.png)
 
 Figure 1. Git’s typical workflow
 
@@ -116,7 +116,7 @@ repository with a HEAD reference which points to the unborn `master`
 branch.
 
 ![Newly-initialized Git repository with unstaged file in the working
-directory](../../../../images/reset-ex1.png)
+directory](../../../../../images/progit/reset-ex1.png)
 
 Figure 2. Newly-initialized Git repository with unstaged file in the
 working directory
@@ -126,7 +126,7 @@ At this point, only the working directory tree has any content.
 Now we want to commit this file, so we use `git add` to take content in
 the working directory and copy it to the index.
 
-![File is copied to index on \`git add\`](../../../../images/reset-ex2.png)
+![File is copied to index on \`git add\`](../../../../../images/progit/reset-ex2.png)
 
 Figure 3. File is copied to index on `git add`
 
@@ -134,7 +134,7 @@ Then we run `git commit`, which takes the contents of the index and
 saves it as a permanent snapshot, creates a commit object which points
 to that snapshot, and updates `master` to point to that commit.
 
-![The \`git commit\` step](../../../../images/reset-ex3.png)
+![The \`git commit\` step](../../../../../images/progit/reset-ex3.png)
 
 Figure 4. The `git commit` step
 
@@ -146,7 +146,7 @@ through the same process; first, we change the file in our working
 directory. Let’s call this **v2** of the file, and indicate it in red.
 
 ![Git repository with changed file in the working
-directory](../../../../images/reset-ex4.png)
+directory](../../../../../images/progit/reset-ex4.png)
 
 Figure 5. Git repository with changed file in the working directory
 
@@ -155,7 +155,7 @@ not staged for commit”, because that entry differs between the index and
 the working directory. Next we run `git add` on it to stage it into our
 index.
 
-![Staging change to index](../../../../images/reset-ex5.png)
+![Staging change to index](../../../../../images/progit/reset-ex5.png)
 
 Figure 6. Staging change to index
 
@@ -164,7 +164,7 @@ under “Changes to be committed” because the index and HEAD differ — th
 is, our proposed next commit is now different from our last commit.
 Finally, we run `git commit` to finalize the commit.
 
-![The \`git commit\` step with changed file](../../../../images/reset-ex6.png)
+![The \`git commit\` step with changed file](../../../../../images/progit/reset-ex6.png)
 
 Figure 7. The `git commit` step with changed file
 
@@ -184,7 +184,7 @@ For the purposes of these examples, let’s say that we’ve modified
 `file.txt` again and committed it a third time. So now our history looks
 like this:
 
-![Git repository with three commits](../../../../images/reset-start.png)
+![Git repository with three commits](../../../../../images/progit/reset-start.png)
 
 Figure 8. Git repository with three commits
 
@@ -201,7 +201,7 @@ set to the `master` branch (i.e. you’re currently on the `master`
 branch), running `git reset 9e5e6a4` will start by making `master` point
 to `9e5e6a4`.
 
-![Soft reset](../../../../images/reset-soft.png)
+![Soft reset](../../../../../images/progit/reset-soft.png)
 
 Figure 9. Soft reset
 
@@ -226,7 +226,7 @@ between the index and what the new HEAD is.
 The next thing `reset` will do is to update the index with the contents
 of whatever snapshot HEAD now points to.
 
-![Mixed reset](../../../../images/reset-mixed.png)
+![Mixed reset](../../../../../images/progit/reset-mixed.png)
 
 Figure 10. Mixed reset
 
@@ -245,7 +245,7 @@ The third thing that `reset` will do is to make the working directory
 look like the index. If you use the `--hard` option, it will continue to
 this stage.
 
-![Hard reset](../../../../images/reset-hard.png)
+![Hard reset](../../../../../images/progit/reset-hard.png)
 
 Figure 11. Hard reset
 
@@ -295,7 +295,7 @@ will:
 
 So it essentially just copies `file.txt` from HEAD to the index.
 
-![Mixed reset with a path](../../../../images/reset-path1.png)
+![Mixed reset with a path](../../../../../images/progit/reset-path1.png)
 
 Figure 12. Mixed reset with a path
 
@@ -303,7 +303,7 @@ This has the practical effect of *unstaging* the file. If we look at the
 diagram for that command and think about what `git add` does, they are
 exact opposites.
 
-![Staging file to index](../../../../images/reset-path2.png)
+![Staging file to index](../../../../../images/progit/reset-path2.png)
 
 Figure 13. Staging file to index
 
@@ -316,7 +316,7 @@ We could just as easily not let Git assume we meant “pull the data from
 HEAD” by specifying a specific commit to pull that file version from. We
 would just run something like `git reset eb43bf file.txt`.
 
-![Soft reset with a path to a specific commit](../../../../images/reset-path3.png)
+![Soft reset with a path to a specific commit](../../../../../images/progit/reset-path3.png)
 
 Figure 14. Soft reset with a path to a specific commit
 
@@ -347,20 +347,20 @@ second commit added a new file and changed the first, and the third
 commit changed the first file again. The second commit was a work in
 progress and you want to squash it down.
 
-![Git repository](../../../../images/reset-squash-r1.png)
+![Git repository](../../../../../images/progit/reset-squash-r1.png)
 
 Figure 15. Git repository
 
 You can run `git reset --soft HEAD~2` to move the HEAD branch back to an
 older commit (the most recent commit you want to keep):
 
-![Moving HEAD with soft reset](../../../../images/reset-squash-r2.png)
+![Moving HEAD with soft reset](../../../../../images/progit/reset-squash-r2.png)
 
 Figure 16. Moving HEAD with soft reset
 
 And then simply run `git commit` again:
 
-![Git repository with squashed commit](../../../../images/reset-squash-r3.png)
+![Git repository with squashed commit](../../../../../images/progit/reset-squash-r3.png)
 
 Figure 17. Git repository with squashed commit
 
@@ -405,7 +405,7 @@ So, in both cases we’re moving HEAD to point to commit A, but *how* we
 do so is very different. `reset` will move the branch HEAD points to,
 `checkout` moves HEAD itself.
 
-![\`git checkout\` and \`git reset\`](../../../../images/reset-checkout.png)
+![\`git checkout\` and \`git reset\`](../../../../../images/progit/reset-checkout.png)
 
 Figure 18. `git checkout` and `git reset`
 

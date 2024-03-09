@@ -21,7 +21,7 @@ file over time (this is commonly described as *delta-based* version
 control).
 
 ![Storing data as changes to a base version of each
-file](../../../../images/deltas.png)
+file](../../../../../images/progit/deltas.png)
 
 Figure 1. Storing data as changes to a base version of each file
 
@@ -35,7 +35,7 @@ the previous identical file it has already stored. Git thinks about its
 data more like a **stream of snapshots**.
 
 ![Git stores data as snapshots of the project over
-time](../../../../images/snapshots.png)
+time](../../../../../images/progit/snapshots.png)
 
 Figure 2. Storing data as snapshots of the project over time
 
@@ -132,7 +132,7 @@ main states that your files can reside in: *modified*, *staged*, and
 This leads us to the three main sections of a Git project: the working
 tree, the staging area, and the Git directory.
 
-![Working tree, staging area, and Git directory](../../../../images/areas.png)
+![Working tree, staging area, and Git directory](../../../../../images/progit/areas.png)
 
 Figure 3. Working tree, staging area, and Git directory
 

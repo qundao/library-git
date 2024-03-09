@@ -3,7 +3,7 @@
 如果你对项目有读写权限或只读权限，你可能需要建立起一个基于网页的简易查看器。
 Git 提供了一个叫做 GitWeb 的 CGI 脚本来做这项工作。
 
-![GitWeb 的网页用户界面](../../../../images/git-instaweb.png)
+![GitWeb 的网页用户界面](../../../../../images/progit/git-instaweb.png)
 
 Figure 1. GitWeb 的网页用户界面
 

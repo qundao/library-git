@@ -323,7 +323,7 @@ $ git diff 32d1776b1^ 32d1776b1
 
 Git 将启动 P4Merge，而不是在命令行输出比较的结果，就像这样：
 
-![P4Merge.](../../../../images/p4merge.png)
+![P4Merge.](../../../../../images/progit/p4merge.png)
 
 Figure 1. P4Merge.
 

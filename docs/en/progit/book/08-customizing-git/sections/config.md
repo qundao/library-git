@@ -358,7 +358,7 @@ $ git diff 32d1776b1^ 32d1776b1
 Instead of getting the diff output on the command line, Git fires up
 P4Merge, which looks something like this:
 
-![P4Merge](../../../../images/p4merge.png)
+![P4Merge](../../../../../images/progit/p4merge.png)
 
 Figure 1. P4Merge
 

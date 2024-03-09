@@ -33,7 +33,7 @@ own local `master` branch starting at the same place as origin’s
 [TABLE]
 
 ![Server and local repositories after
-cloning](../../../../images/remote-branches-1.png)
+cloning](../../../../../images/progit/remote-branches-1.png)
 
 Figure 1. Server and local repositories after cloning
 
@@ -43,7 +43,7 @@ branch, then your histories move forward differently. Also, as long as
 you stay out of contact with your `origin` server, your `origin/master`
 pointer doesn’t move.
 
-![Local and remote work can diverge](../../../../images/remote-branches-2.png)
+![Local and remote work can diverge](../../../../../images/progit/remote-branches-2.png)
 
 Figure 2. Local and remote work can diverge
 
@@ -55,7 +55,7 @@ and updates your local database, moving your `origin/master` pointer to
 its new, more up-to-date position.
 
 ![\`git fetch\` updates your remote-tracking
-branches](../../../../images/remote-branches-3.png)
+branches](../../../../../images/progit/remote-branches-3.png)
 
 Figure 3. `git fetch` updates your remote-tracking branches
 
@@ -69,7 +69,7 @@ by running the `git remote add` command as we covered in
 Name this remote `teamone`, which will be your shortname for that whole
 URL.
 
-![Adding another server as a remote](../../../../images/remote-branches-4.png)
+![Adding another server as a remote](../../../../../images/progit/remote-branches-4.png)
 
 Figure 4. Adding another server as a remote
 
@@ -80,7 +80,7 @@ data but sets a remote-tracking branch called `teamone/master` to point
 to the commit that `teamone` has as its `master` branch.
 
 ![Remote-tracking branch for
-\`teamone/master\`](../../../../images/remote-branches-5.png)
+\`teamone/master\`](../../../../../images/progit/remote-branches-5.png)
 
 Figure 5. Remote-tracking branch for `teamone/master`
 

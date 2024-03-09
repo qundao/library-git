@@ -285,7 +285,7 @@ one commit but aren’t reachable from another. For example, say you have
 a commit history that looks like [Example history for range
 selection](#double_dot).
 
-![Example history for range selection](../../../../images/double-dot.png)
+![Example history for range selection](../../../../../images/progit/double-dot.png)
 
 Figure 1. Example history for range selection
 

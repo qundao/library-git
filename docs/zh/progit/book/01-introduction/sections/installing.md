@@ -43,7 +43,7 @@ $ git --version
 安装程序可以在 Git 官方网站下载，网址为
 [https://git-scm.com/download/mac](https://git-scm.com/download/mac)。
 
-![Git macOS 安装程序。](../../../../images/git-osx-installer.png)
+![Git macOS 安装程序。](../../../../../images/progit/git-osx-installer.png)
 
 Figure 1. Git macOS Installer.
 

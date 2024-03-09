@@ -23,7 +23,7 @@ them since your last commit. As you work, you selectively stage these
 modified files and then commit all those staged changes, and the cycle
 repeats.
 
-![The lifecycle of the status of your files](../../../../images/lifecycle.png)
+![The lifecycle of the status of your files](../../../../../images/progit/lifecycle.png)
 
 Figure 1. The lifecycle of the status of your files
 

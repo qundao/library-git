@@ -25,7 +25,7 @@
 首先，我们假设你正在你的项目上工作，并且在 `master`
 分支上已经有了一些提交。
 
-![一个简单的提交历史。](../../../../images/basic-branching-1.png)
+![一个简单的提交历史。](../../../../../images/progit/basic-branching-1.png)
 
 Figure 1. 一个简单提交历史
 
@@ -45,7 +45,7 @@ $ git branch iss53
 $ git checkout iss53
 ```
 
-![创建一个新分支指针。](../../../../images/basic-branching-2.png)
+![创建一个新分支指针。](../../../../../images/progit/basic-branching-2.png)
 
 Figure 2. 创建一个新分支指针
 
@@ -58,7 +58,7 @@ $ vim index.html
 $ git commit -a -m 'added a new footer [issue 53]'
 ```
 
-![\`iss53\` 分支随着工作的进展向前推进。](../../../../images/basic-branching-3.png)
+![\`iss53\` 分支随着工作的进展向前推进。](../../../../../images/progit/basic-branching-3.png)
 
 Figure 3. `iss53` 分支随着工作的进展向前推进
 
@@ -103,7 +103,7 @@ $ git commit -a -m 'fixed the broken email address'
 ```
 
 ![基于 \`master\` 分支的紧急问题分支（hotfix
-branch）。](../../../../images/basic-branching-4.png)
+branch）。](../../../../../images/progit/basic-branching-4.png)
 
 Figure 4. 基于 `master` 分支的紧急问题分支 `hotfix branch`
 
@@ -130,7 +130,7 @@ Fast-forward
 现在，最新的修改已经在 `master`
 分支所指向的提交快照中，你可以着手发布该修复了。
 
-![\`master\` 被快进到 \`hotfix\`。](../../../../images/basic-branching-5.png)
+![\`master\` 被快进到 \`hotfix\`。](../../../../../images/progit/basic-branching-5.png)
 
 Figure 5. `master` 被快进到 `hotfix`
 
@@ -156,7 +156,7 @@ $ git commit -a -m 'finished the new footer [issue 53]'
 1 file changed, 1 insertion(+)
 ```
 
-![继续在 \`iss53\` 分支上的工作。](../../../../images/basic-branching-6.png)
+![继续在 \`iss53\` 分支上的工作。](../../../../../images/progit/basic-branching-6.png)
 
 Figure 6. 继续在 `iss53` 分支上的工作
 
@@ -188,7 +188,7 @@ index.html |    1 +
 会使用两个分支的末端所指的快照（`C4` 和
 `C5`）以及这两个分支的公共祖先（`C2`），做一个简单的三方合并。
 
-![一次典型合并中所用到的三个快照。](../../../../images/basic-merging-1.png)
+![一次典型合并中所用到的三个快照。](../../../../../images/progit/basic-merging-1.png)
 
 Figure 7. 一次典型合并中所用到的三个快照
 
@@ -196,7 +196,7 @@ Figure 7. 一次典型合并中所用到的三个快照
 将此次三方合并的结果做了一个新的快照并且自动创建一个新的提交指向它。
 这个被称作一次合并提交，它的特别之处在于他有不止一个父提交。
 
-![一个合并提交。](../../../../images/basic-merging-2.png)
+![一个合并提交。](../../../../../images/progit/basic-merging-2.png)
 
 Figure 8. 一个合并提交
 

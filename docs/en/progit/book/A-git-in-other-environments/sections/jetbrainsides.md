@@ -4,7 +4,7 @@ JetBrains IDEs (such as IntelliJ IDEA, PyCharm, WebStorm, PhpStorm,
 RubyMine, and others) ship with a Git Integration plugin. It provides a
 dedicated view in the IDE to work with Git and GitHub Pull Requests.
 
-![Version Control ToolWindow in JetBrains IDEs](../../../../images/jb.png)
+![Version Control ToolWindow in JetBrains IDEs](../../../../../images/progit/jb.png)
 
 Figure 1. Version Control ToolWindow in JetBrains IDEs
 

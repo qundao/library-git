@@ -9,7 +9,7 @@ provides powerful tab-completion facilities, as well as an enhanced
 prompt to help you stay on top of your repository status. It looks like
 this:
 
-![PowerShell with Posh-git](../../../../images/posh-git.png)
+![PowerShell with Posh-git](../../../../../images/progit/posh-git.png)
 
 Figure 1. PowerShell with Posh-git
 

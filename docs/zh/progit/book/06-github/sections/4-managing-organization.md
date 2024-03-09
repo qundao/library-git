@@ -10,7 +10,7 @@
 我们可以很简单地创建一个组织，只需要点击任意 GitHub
 页面右上角的“+”图标，在菜单中选择“New organization”即可。
 
-![“New organization”菜单项](../../../../images/neworg.png)
+![“New organization”菜单项](../../../../../images/progit/neworg.png)
 
 Figure 1. “New organization”菜单项
 
@@ -42,7 +42,7 @@ page），用于列出该组织所有的版本库，并且该页面可供所有�
 
 组织页面主要由一个面板（dashboard）构成，这个仪表盘包含了这个组织内的所有版本库，用户和团队。
 
-![组织页面](../../../../images/orgs-01-page.png)
+![组织页面](../../../../../images/progit/orgs-01-page.png)
 
 Figure 2. 组织页面
 
@@ -52,7 +52,7 @@ Figure 2. 组织页面
 每个团队对于版本库可以有只读、读写和管理三种权限。 你可以通过点击在
 [团队页面](#_team_page) 内的 “Settings” 按钮更改相应权限等级。
 
-![团队页面](../../../../images/orgs-02-teams.png)
+![团队页面](../../../../../images/progit/orgs-02-teams.png)
 
 Figure 3. 团队页面
 
@@ -73,7 +73,7 @@ Figure 3. 团队页面
 组织的拥有者还可以访问组织中发生的事情的所有信息。 在 'Audit Log'
 标签页有整个组织的日志，你可以看到谁在世界上哪个地方做了什么事。
 
-![orgs 03 audit](../../../../images/orgs-03-audit.png)
+![orgs 03 audit](../../../../../images/progit/orgs-03-audit.png)
 
 Figure 4. 审计日志
 

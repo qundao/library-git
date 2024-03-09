@@ -207,11 +207,11 @@ $Id: 42812b7653c7b88933f8a9d6cad0ca16714b9bb3 $
 [“clean”过滤器会在文件被暂存时触发](#filters_b)）。
 这两个过滤器能够被用来做各种有趣的事。
 
-![“smudge”过滤器会在文件被检出时触发。](../../../../images/smudge.png)
+![“smudge”过滤器会在文件被检出时触发。](../../../../../images/progit/smudge.png)
 
 Figure 1. “smudge”过滤器会在文件被检出时触发
 
-![“clean”过滤器会在文件被暂存时触发。](../../../../images/clean.png)
+![“clean”过滤器会在文件被暂存时触发。](../../../../../images/progit/clean.png)
 
 Figure 2. “clean”过滤器会在文件被暂存时触发
 

@@ -38,7 +38,7 @@ zstyle ':vcs_info:git:*' formats '%b'
 （当然也可以在左侧显示，只需把上面 PROMPT 的注释去掉即可。）
 它看起来像这样：
 
-![自定义 \`zsh\` 提示符.](../../../../images/zsh-prompt.png)
+![自定义 \`zsh\` 提示符.](../../../../../images/progit/zsh-prompt.png)
 
 Figure 1. 自定义 `zsh` 提示符.
 
@@ -59,7 +59,7 @@ Zsh 本身已足够强大，但还有一些专门为它打造的完整框架，�
 "主题" 可以展示版本控制数据。 [一个 oh-my-zsh
 主题的示例.](#oh_my_zsh_git) 只是可以其中一个可以通过该系统实现的例子。
 
-![一个 oh-my-zsh 主题的示例.](../../../../images/zsh-oh-my.png)
+![一个 oh-my-zsh 主题的示例.](../../../../../images/progit/zsh-oh-my.png)
 
 Figure 2. 一个 oh-my-zsh 主题的示例.
 

@@ -4,7 +4,7 @@ Now that you have basic read/write and read-only access to your project,
 you may want to set up a simple web-based visualizer. Git comes with a
 CGI script called GitWeb that is sometimes used for this.
 
-![The GitWeb web-based user interface](../../../../images/git-instaweb.png)
+![The GitWeb web-based user interface](../../../../../images/progit/git-instaweb.png)
 
 Figure 1. The GitWeb web-based user interface
 

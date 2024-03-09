@@ -23,7 +23,7 @@ happy with it, at which point the owner can merge it in.
 To fork a project, visit the project page and click the “Fork” button at
 the top-right of the page.
 
-![The “Fork” button](../../../../images/forkbutton.png)
+![The “Fork” button](../../../../../images/progit/forkbutton.png)
 
 Figure 1. The “Fork” button
 
@@ -75,7 +75,7 @@ Tony is looking for code to run on his Arduino programmable
 microcontroller and has found a great program file on GitHub at
 [https://github.com/schacon/blink](https://github.com/schacon/blink).
 
-![The project we want to contribute to](../../../../images/blink-01-start.png)
+![The project we want to contribute to](../../../../../images/progit/blink-01-start.png)
 
 Figure 2. The project we want to contribute to
 
@@ -155,7 +155,7 @@ You can alternatively go to the “Branches” page at
 `https://github.com/<user>/<project>/branches` to locate your branch and
 open a new Pull Request from there.
 
-![Pull Request button](../../../../images/blink-02-pr.png)
+![Pull Request button](../../../../../images/progit/blink-02-pr.png)
 
 Figure 3. Pull Request button
 
@@ -171,7 +171,7 @@ of the `master` branch (in this case, just the one) and a unified diff
 of all the changes that will be made should this branch get merged by
 the project owner.
 
-![Pull Request creation page](../../../../images/blink-03-pull-request-open.png)
+![Pull Request creation page](../../../../../images/progit/blink-03-pull-request-open.png)
 
 Figure 4. Pull Request creation page
 
@@ -195,7 +195,7 @@ on GitHub this happens online. The project owner can review the unified
 diff and leave a comment by clicking on any of the lines.
 
 ![Comment on a specific line of code in a Pull
-Request](../../../../images/blink-04-pr-comment.png)
+Request](../../../../../images/progit/blink-04-pr-comment.png)
 
 Figure 5. Comment on a specific line of code in a Pull Request
 
@@ -204,7 +204,7 @@ Request (and indeed, anyone else watching the repository) will get a
 notification. We’ll go over customizing this later, but if he had email
 notifications turned on, Tony would get an email like this:
 
-![Comments sent as email notifications](../../../../images/blink-04-email.png)
+![Comments sent as email notifications](../../../../../images/progit/blink-04-email.png)
 
 Figure 6. Comments sent as email notifications
 
@@ -214,7 +214,7 @@ project owner both commenting on a line of code and then leaving a
 general comment in the discussion section. You can see that the code
 comments are brought into the conversation as well.
 
-![Pull Request discussion page](../../../../images/blink-05-general-comment.png)
+![Pull Request discussion page](../../../../../images/progit/blink-05-general-comment.png)
 
 Figure 7. Pull Request discussion page
 
@@ -232,7 +232,7 @@ notification, so once Tony has pushed his corrections he decides to
 leave a comment to inform the project owner that he made the requested
 change.
 
-![Pull Request final](../../../../images/blink-06-final.png)
+![Pull Request final](../../../../../images/progit/blink-06-final.png)
 
 Figure 8. Pull Request final
 
@@ -305,7 +305,7 @@ cleanly, you will want to fix it so the maintainer can easily merge it.
 GitHub will test this for you and let you know at the bottom of every
 Pull Request if the merge is trivial or not.
 
-![Pull Request does not merge cleanly](../../../../images/pr-01-fail.png)
+![Pull Request does not merge cleanly](../../../../../images/progit/pr-01-fail.png)
 
 Figure 9. Pull Request does not merge cleanly
 
@@ -379,7 +379,7 @@ To https://github.com/tonychacon/blink
 Once you do that, the Pull Request will be automatically updated and
 re-checked to see if it merges cleanly.
 
-![Pull Request now merges cleanly](../../../../images/pr-02-merge-fix.png)
+![Pull Request now merges cleanly](../../../../../images/progit/pr-02-merge-fix.png)
 
 Figure 10. Pull Request now merges cleanly
 
@@ -421,7 +421,7 @@ issue in the fork of the repository and an issue in a completely
 different project. We can fill out the description just like [Cross
 references in a Pull Request](#_pr_references).
 
-![Cross references in a Pull Request](../../../../images/mentions-01-syntax.png)
+![Cross references in a Pull Request](../../../../../images/progit/mentions-01-syntax.png)
 
 Figure 11. Cross references in a Pull Request
 
@@ -429,7 +429,7 @@ When we submit this pull request, we’ll see all of that rendered like
 [Cross references rendered in a Pull Request](#_pr_references_render).
 
 ![Cross references rendered in a Pull
-Request](../../../../images/mentions-02-render.png)
+Request](../../../../../images/progit/mentions-02-render.png)
 
 Figure 12. Cross references rendered in a Pull Request
 
@@ -445,7 +445,7 @@ something like [Link back to the new Pull Request in the closed Pull
 Request timeline](#_pr_closed).
 
 ![Link back to the new Pull Request in the closed Pull Request
-timeline](../../../../images/mentions-03-closed.png)
+timeline](../../../../../images/progit/mentions-03-closed.png)
 
 Figure 13. Link back to the new Pull Request in the closed Pull Request
 timeline
@@ -469,7 +469,7 @@ rendered](#_example_markdown) for an example of how comments or text can
 be written and then rendered using Markdown.
 
 ![An example of GitHub Flavored Markdown as written and as
-rendered](../../../../images/markdown-01-example.png)
+rendered](../../../../../images/progit/markdown-01-example.png)
 
 Figure 14. An example of GitHub Flavored Markdown as written and as
 rendered
@@ -499,7 +499,7 @@ we’ll see it rendered like [Task lists rendered in a Markdown
 comment](#_eg_task_lists).
 
 ![Task lists rendered in a Markdown
-comment](../../../../images/markdown-02-tasks.png)
+comment](../../../../../images/progit/markdown-02-tasks.png)
 
 Figure 15. Task lists rendered in a Markdown comment
 
@@ -518,7 +518,7 @@ people track the progress of the branch. You can see an example of this
 in [Task list summary in the Pull Request list](#_task_list_progress).
 
 ![Task list summary in the Pull Request
-list](../../../../images/markdown-03-task-summary.png)
+list](../../../../../images/progit/markdown-03-task-summary.png)
 
 Figure 16. Task list summary in the Pull Request list
 
@@ -549,7 +549,7 @@ also try to syntax highlight the snippet. In the case of the above
 example, it would end up rendering like [Rendered fenced code
 example](#_md_code).
 
-![Rendered fenced code example](../../../../images/markdown-04-fenced-code.png)
+![Rendered fenced code example](../../../../../images/progit/markdown-04-fenced-code.png)
 
 Figure 17. Rendered fenced code example
 
@@ -574,7 +574,7 @@ How big are these slings and in particular, these arrows?
 Once rendered, the comment will look like [Rendered quoting
 example](#_md_quote).
 
-![Rendered quoting example](../../../../images/markdown-05-quote.png)
+![Rendered quoting example](../../../../../images/progit/markdown-05-quote.png)
 
 Figure 18. Rendered quoting example
 
@@ -586,7 +586,7 @@ Requests. There is even an emoji helper in GitHub. If you are typing a
 comment and you start with a `:` character, an autocompleter will help
 you find what you’re looking for.
 
-![Emoji autocompleter in action](../../../../images/markdown-06-emoji-complete.png)
+![Emoji autocompleter in action](../../../../../images/progit/markdown-06-emoji-complete.png)
 
 Figure 19. Emoji autocompleter in action
 
@@ -606,7 +606,7 @@ I :eyes: that :bug: and I :cold_sweat:.
 When rendered, it would look something like [Heavy emoji
 commenting](#_md_emoji).
 
-![Heavy emoji commenting](../../../../images/markdown-07-emoji.png)
+![Heavy emoji commenting](../../../../../images/progit/markdown-07-emoji.png)
 
 Figure 20. Heavy emoji commenting
 
@@ -623,7 +623,7 @@ can be difficult to find and embed URLs for, GitHub allows you to drag
 and drop images into text areas to embed them.
 
 ![Drag and drop images to upload them and auto-embed
-them](../../../../images/markdown-08-drag-drop.png)
+them](../../../../../images/progit/markdown-08-drag-drop.png)
 
 Figure 21. Drag and drop images to upload them and auto-embed them
 

@@ -4,7 +4,7 @@
 [https://github.com](https://github.com)，选择一个未被占用的用户名，提供一个电子邮件地址和密码，点击写着“Sign
 up for GitHub”的绿色大按钮即可。
 
-![GitHub 注册表单。](../../../../images/signup.png)
+![GitHub 注册表单。](../../../../../images/progit/signup.png)
 
 Figure 1. GitHub 注册表单。
 
@@ -28,13 +28,13 @@ fork 其它项目，以及推送我们自己的修改。
 [ch04-git-on-the-server](ch04-git-on-the-server.md#generate_ssh_key)。）
 使用窗口右上角的链接打开你的账户设置：
 
-![“Account settings”链接。](../../../../images/account-settings.png)
+![“Account settings”链接。](../../../../../images/progit/account-settings.png)
 
 Figure 2. “Account settings”链接。
 
 然后在左侧选择“SSH keys”部分。
 
-![“SSH keys”链接。](../../../../images/ssh-keys.png)
+![“SSH keys”链接。](../../../../../images/progit/ssh-keys.png)
 
 Figure 3. “SSH keys”链接。
 
@@ -50,13 +50,13 @@ Figure 3. “SSH keys”链接。
 首先，来到“Profile”标签页（在“SSH Keys”标签页上方），点击“Upload new
 picture”。
 
-![“Profile”链接。](../../../../images/your-profile.png)
+![“Profile”链接。](../../../../../images/progit/your-profile.png)
 
 Figure 4. “Profile”链接。
 
 我们选择了本地磁盘上的一个 Git 图标，上传之后还可以对其进行裁剪。
 
-![裁剪已上传的头像。](../../../../images/avatar-crop.png)
+![裁剪已上传的头像。](../../../../../images/progit/avatar-crop.png)
 
 Figure 5. 裁剪头像
 
@@ -72,7 +72,7 @@ GitHub 使用用户邮件地址区分 Git 提交。
 可以正确地将它们连接起来， 你需要在管理页面的 Emails
 部分添加你拥有的所有邮箱地址。
 
-![添加所有邮件地址。](../../../../images/email-settings.png)
+![添加所有邮件地址。](../../../../../images/progit/email-settings.png)
 
 Figure 6. 添加邮件地址
 
@@ -92,7 +92,7 @@ Figure 6. 添加邮件地址
 你可以在 Account settings 页面的 Security 标签页中找到 Two-factor
 Authentication 设置。
 
-![Security 标签页中的 2FA](../../../../images/2fa-1.png)
+![Security 标签页中的 2FA](../../../../../images/progit/2fa-1.png)
 
 Figure 7. Security 标签页中的 2FA
 

@@ -5,7 +5,7 @@ visit [https://github.com](https://github.com), choose a user name that
 isn’t already taken, provide an email address and a password, and click
 the big green “Sign up for GitHub” button.
 
-![The GitHub sign-up form](../../../../images/signup.png)
+![The GitHub sign-up form](../../../../../images/progit/signup.png)
 
 Figure 1. The GitHub sign-up form
 
@@ -33,13 +33,13 @@ If you don’t already have one, see
 Open up your account settings using the link at the top-right of the
 window:
 
-![The “Account settings” link](../../../../images/account-settings.png)
+![The “Account settings” link](../../../../../images/progit/account-settings.png)
 
 Figure 2. The “Account settings” link
 
 Then select the “SSH keys” section along the left-hand side.
 
-![The “SSH keys” link](../../../../images/ssh-keys.png)
+![The “SSH keys” link](../../../../../images/progit/ssh-keys.png)
 
 Figure 3. The “SSH keys” link
 
@@ -55,14 +55,14 @@ Next, if you wish, you can replace the avatar that is generated for you
 with an image of your choosing. First go to the “Profile” tab (above the
 SSH Keys tab) and click “Upload new picture”.
 
-![The “Profile” link](../../../../images/your-profile.png)
+![The “Profile” link](../../../../../images/progit/your-profile.png)
 
 Figure 4. The “Profile” link
 
 We’ll choose a copy of the Git logo that is on our hard drive and then
 we get a chance to crop it.
 
-![Crop your uploaded avatar](../../../../images/avatar-crop.png)
+![Crop your uploaded avatar](../../../../../images/progit/avatar-crop.png)
 
 Figure 5. Crop your uploaded avatar
 
@@ -80,7 +80,7 @@ address. If you use multiple email addresses in your commits and you
 want GitHub to link them up properly, you need to add all the email
 addresses you have used to the Emails section of the admin section.
 
-![Add all your email addresses](../../../../images/email-settings.png)
+![Add all your email addresses](../../../../../images/progit/email-settings.png)
 
 Figure 6. Add all your email addresses
 
@@ -106,7 +106,7 @@ attacker will not be able to access your account.
 You can find the Two-factor Authentication setup under the Security tab
 of your Account settings.
 
-![2FA in the Security Tab](../../../../images/2fa-1.png)
+![2FA in the Security Tab](../../../../../images/progit/2fa-1.png)
 
 Figure 7. 2FA in the Security Tab
 

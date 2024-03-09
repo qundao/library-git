@@ -5,7 +5,7 @@ IDEA，PyCharm，WebStorm，PhpStorm，RubyMine，以及其他）自带 Git
 集成插件。插件在 IDE 中提供了一个专门的页面，可以使用 Git 和 GitHub 的
 Pull Request。
 
-![JetBrains IDEs 中的版本控制工具窗口。](../../../../images/jb.png)
+![JetBrains IDEs 中的版本控制工具窗口。](../../../../../images/progit/jb.png)
 
 Figure 1. JetBrains IDEs 中的版本控制工具窗口。
 

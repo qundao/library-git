@@ -30,7 +30,7 @@ commit history, and the bleeding-edge branches are farther up the
 history.
 
 ![A linear view of progressive-stability
-branching](../../../../images/lr-branches-1.png)
+branching](../../../../../images/progit/lr-branches-1.png)
 
 Figure 1. A linear view of progressive-stability branching
 
@@ -38,7 +38,7 @@ It’s generally easier to think about them as work silos, where sets of
 commits graduate to a more stable silo when they’re fully tested.
 
 ![A “silo” view of progressive-stability
-branching](../../../../images/lr-branches-2.png)
+branching](../../../../../images/progit/lr-branches-2.png)
 
 Figure 2. A “silo” view of progressive-stability branching
 
@@ -77,7 +77,7 @@ back to your `master` branch and working there for a while, and then
 branching off there to do some work that you’re not sure is a good idea
 (`dumbidea` branch). Your commit history will look something like this:
 
-![Multiple topic branches](../../../../images/topic-branches-1.png)
+![Multiple topic branches](../../../../../images/progit/topic-branches-1.png)
 
 Figure 3. Multiple topic branches
 
@@ -88,7 +88,7 @@ original `iss91` branch (losing commits `C5` and `C6`) and merge in the
 other two. Your history then looks like this:
 
 ![History after merging \`dumbidea\` and
-\`iss91v2\`](../../../../images/topic-branches-2.png)
+\`iss91v2\`](../../../../../images/progit/topic-branches-2.png)
 
 Figure 4. History after merging `dumbidea` and `iss91v2`
 

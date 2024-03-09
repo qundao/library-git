@@ -21,7 +21,7 @@ accept code, and everyone synchronizes their work with it. A number of
 developers are nodes — consumers of that hub — and synchronize with that
 centralized location.
 
-![Centralized workflow](../../../../images/centralized_workflow.png)
+![Centralized workflow](../../../../../images/progit/centralized_workflow.png)
 
 Figure 1. Centralized workflow
 
@@ -76,7 +76,7 @@ workflow](#wfdiag_b)):
 
 6.  The maintainer pushes merged changes to the main repository.
 
-![Integration-manager workflow](../../../../images/integration-manager.png)
+![Integration-manager workflow](../../../../../images/progit/integration-manager.png)
 
 Figure 2. Integration-manager workflow
 
@@ -112,7 +112,7 @@ process works like this (see [Benevolent dictator workflow](#wfdiag_c)):
 4.  Finally, the dictator pushes that `master` branch to the reference
     repository so the other developers can rebase on it.
 
-![Benevolent dictator workflow](../../../../images/benevolent-dictator.png)
+![Benevolent dictator workflow](../../../../../images/progit/benevolent-dictator.png)
 
 Figure 3. Benevolent dictator workflow
 

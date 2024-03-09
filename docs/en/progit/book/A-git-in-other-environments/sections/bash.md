@@ -45,7 +45,7 @@ provided by `git-prompt.sh` with a formatting argument. Now your bash
 prompt will look like this when you’re anywhere inside a Git-controlled
 project:
 
-![Customized \`bash\` prompt](../../../../images/git-bash.png)
+![Customized \`bash\` prompt](../../../../../images/progit/git-bash.png)
 
 Figure 1. Customized `bash` prompt
 

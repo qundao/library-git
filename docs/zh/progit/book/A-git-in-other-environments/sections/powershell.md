@@ -8,7 +8,7 @@ Posh-Git
 的扩展包提供了强大的 tab 补全功能，
 并针对提示符进行了增强，以帮助你聚焦于你的仓库状态。 它看起来像：
 
-![附带了 Posh-Git 扩展包的 Powershell](../../../../images/posh-git.png)
+![附带了 Posh-Git 扩展包的 Powershell](../../../../../images/progit/posh-git.png)
 
 Figure 1. 附带了 Posh-Git 扩展包的 Powershell。
 

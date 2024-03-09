@@ -21,14 +21,14 @@
 事实上我们刚才讨论的，是随着你的提交而不断右移的指针。
 稳定分支的指针总是在提交历史中落后一大截，而前沿分支的指针往往比较靠前。
 
-![趋于稳定分支的线性图。](../../../../images/lr-branches-1.png)
+![趋于稳定分支的线性图。](../../../../../images/progit/lr-branches-1.png)
 
 Figure 1. 趋于稳定分支的线性图
 
 通常把他们想象成流水线（work
 silos）可能更好理解一点，那些经过测试考验的提交会被遴选到更加稳定的流水线上去。
 
-![趋于稳定分支的工作流（“silo”）视图。](../../../../images/lr-branches-2.png)
+![趋于稳定分支的工作流（“silo”）视图。](../../../../../images/progit/lr-branches-2.png)
 
 Figure 2. 趋于稳定分支的流水线（“silo”）视图
 
@@ -60,7 +60,7 @@ Figure 2. 趋于稳定分支的流水线（“silo”）视图
 的时候新建一个 `dumbidea` 分支，并在上面做些实验。
 你的提交历史看起来像下面这个样子：
 
-![拥有多个主题分支的提交历史。](../../../../images/topic-branches-1.png)
+![拥有多个主题分支的提交历史。](../../../../../images/progit/topic-branches-1.png)
 
 Figure 3. 拥有多个主题分支的提交历史
 
@@ -72,7 +72,7 @@ Figure 3. 拥有多个主题分支的提交历史
 最终你的提交历史看起来像下面这个样子：
 
 ![合并了 \`dumbidea\` 和 \`iss91v2\`
-分支之后的提交历史。](../../../../images/topic-branches-2.png)
+分支之后的提交历史。](../../../../../images/progit/topic-branches-2.png)
 
 Figure 4. 合并了 `dumbidea` 和 `iss91v2` 分支之后的提交历史
 

@@ -15,7 +15,7 @@ An organization is pretty easy to create; just click on the “+” icon at
 the top-right of any GitHub page, and select “New organization” from the
 menu.
 
-![The “New organization” menu item](../../../../images/neworg.png)
+![The “New organization” menu item](../../../../../images/progit/neworg.png)
 
 Figure 1. The “New organization” menu item
 
@@ -59,7 +59,7 @@ individual repository.
 The Organization page shows you a simple dashboard of all the
 repositories, users and teams that are under this organization.
 
-![The Organization page](../../../../images/orgs-01-page.png)
+![The Organization page](../../../../../images/progit/orgs-01-page.png)
 
 Figure 2. The Organization page
 
@@ -71,7 +71,7 @@ levels for the team. Each team can have read only, read/write or
 administrative access to the repositories. You can change that level by
 clicking the “Settings” button in [The Team page](#_team_page).
 
-![The Team page](../../../../images/orgs-02-teams.png)
+![The Team page](../../../../../images/progit/orgs-02-teams.png)
 
 Figure 3. The Team page
 
@@ -96,7 +96,7 @@ went on under the organization. You can go to the 'Audit Log' tab and
 see what events have happened at an organization level, who did them and
 where in the world they were done.
 
-![The Audit log](../../../../images/orgs-03-audit.png)
+![The Audit log](../../../../../images/progit/orgs-03-audit.png)
 
 Figure 4. The Audit log
 

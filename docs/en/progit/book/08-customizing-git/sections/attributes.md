@@ -227,11 +227,11 @@ checkout](#filters_a)) and just before they’re staged (“clean”, see [The
 “clean” filter is run when files are staged](#filters_b)). These filters
 can be set to do all sorts of fun things.
 
-![The “smudge” filter is run on checkout](../../../../images/smudge.png)
+![The “smudge” filter is run on checkout](../../../../../images/progit/smudge.png)
 
 Figure 1. The “smudge” filter is run on checkout
 
-![The “clean” filter is run when files are staged](../../../../images/clean.png)
+![The “clean” filter is run when files are staged](../../../../../images/progit/clean.png)
 
 Figure 2. The “clean” filter is run when files are staged
 

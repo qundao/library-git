@@ -39,7 +39,7 @@ of the terminal window, whenever your shell is inside a Git repository.
 The left side is supported as well, of course; just uncomment the
 assignment to `PROMPT`. It looks a bit like this:
 
-![Customized \`zsh\` prompt](../../../../images/zsh-prompt.png)
+![Customized \`zsh\` prompt](../../../../../images/progit/zsh-prompt.png)
 
 Figure 1. Customized `zsh` prompt
 
@@ -61,7 +61,7 @@ has a variety of prompt "themes", many of which display version-control
 data. [An example of an oh-my-zsh theme](#oh_my_zsh_git) is just one
 example of what can be done with this system.
 
-![An example of an oh-my-zsh theme](../../../../images/zsh-oh-my.png)
+![An example of an oh-my-zsh theme](../../../../../images/progit/zsh-oh-my.png)
 
 Figure 2. An example of an oh-my-zsh theme
 

@@ -57,7 +57,7 @@ fdf4fc3344e67ab068f836878b6c4951e3b15f3d first commit
 
 至此，我们的 Git 数据库从概念上看起来像这样：
 
-![包含分支引用的 Git 目录对象。](../../../../images/data-model-4.png)
+![包含分支引用的 Git 目录对象。](../../../../../images/progit/data-model-4.png)
 
 Figure 1. 包含分支引用的 Git 目录对象。
 

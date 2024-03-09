@@ -42,7 +42,7 @@ end
 在一个分支中修改单词 “hello” 为 “hola”，然后在另一个分支中修改 “world”
 为 “mundo”，就像之前一样。
 
-![rerere1](../../../../images/rerere1.png)
+![rerere1](../../../../../images/progit/rerere1.png)
 
 当合并两个分支到一起时，我们将会得到一个合并冲突：
 
@@ -145,7 +145,7 @@ Recorded resolution for 'hello.rb'.
 
 可以看到它 "Recorded resolution for FILE"。
 
-![rerere2](../../../../images/rerere2.png)
+![rerere2](../../../../../images/progit/rerere2.png)
 
 现在，让我们撤消那个合并然后将它变基到 `master` 分支顶部来替代它。
 可以通过使用之前在 [ch07-git-tools](ch07-git-tools.md#git_reset)
@@ -204,7 +204,7 @@ index a440db6,54336ba..0000000
   end
 ```
 
-![rerere3](../../../../images/rerere3.png)
+![rerere3](../../../../../images/progit/rerere3.png)
 
 也可以通过 `git checkout` 命令重新恢复到冲突时候的文件状态：
 

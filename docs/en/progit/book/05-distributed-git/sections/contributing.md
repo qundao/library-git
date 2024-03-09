@@ -56,7 +56,7 @@ provides an easy way to check for this — before you commit, run
 `git diff --check`, which identifies possible whitespace errors and
 lists them for you.
 
-![Output of \`git diff --check\`](../../../../images/git-diff-check.png)
+![Output of \`git diff --check\`](../../../../../images/progit/git-diff-check.png)
 
 Figure 1. Output of `git diff --check`
 
@@ -228,7 +228,7 @@ From john@githost:simplegit
 
 At this point, John’s local repository looks something like this:
 
-![John’s divergent history](../../../../images/small-team-1.png)
+![John’s divergent history](../../../../../images/progit/small-team-1.png)
 
 Figure 2. John’s divergent history
 
@@ -246,7 +246,7 @@ As long as that local merge goes smoothly, John’s updated history will
 now look like this:
 
 ![John’s repository after merging
-\`origin/master\`](../../../../images/small-team-2.png)
+\`origin/master\`](../../../../../images/progit/small-team-2.png)
 
 Figure 3. John’s repository after merging `origin/master`
 
@@ -264,7 +264,7 @@ To john@githost:simplegit.git
 In the end, John’s commit history will look like this:
 
 ![John’s history after pushing to the \`origin\`
-server](../../../../images/small-team-3.png)
+server](../../../../../images/progit/small-team-3.png)
 
 Figure 4. John’s history after pushing to the `origin` server
 
@@ -272,7 +272,7 @@ In the meantime, Jessica has created a new topic branch called
 `issue54`, and made three commits to that branch. She hasn’t fetched
 John’s changes yet, so her commit history looks like this:
 
-![Jessica’s topic branch](../../../../images/small-team-4.png)
+![Jessica’s topic branch](../../../../../images/progit/small-team-4.png)
 
 Figure 5. Jessica’s topic branch
 
@@ -292,7 +292,7 @@ That pulls down the work John has pushed up in the meantime. Jessica’s
 history now looks like this:
 
 ![Jessica’s history after fetching John’s
-changes](../../../../images/small-team-5.png)
+changes](../../../../../images/progit/small-team-5.png)
 
 Figure 6. Jessica’s history after fetching John’s changes
 
@@ -363,7 +363,7 @@ Merge made by the 'recursive' strategy.
 Everything merges cleanly, and Jessica’s history now looks like this:
 
 ![Jessica’s history after merging John’s
-changes](../../../../images/small-team-6.png)
+changes](../../../../../images/progit/small-team-6.png)
 
 Figure 7. Jessica’s history after merging John’s changes
 
@@ -382,7 +382,7 @@ Each developer has committed a few times and merged each other’s work
 successfully.
 
 ![Jessica’s history after pushing all changes back to the
-server](../../../../images/small-team-7.png)
+server](../../../../../images/progit/small-team-7.png)
 
 Figure 8. Jessica’s history after pushing all changes back to the server
 
@@ -394,7 +394,7 @@ finally push to the `master` branch on the server. The general sequence
 is something like this:
 
 ![General sequence of events for a simple multiple-developer Git
-workflow](../../../../images/small-team-flow.png)
+workflow](../../../../../images/progit/small-team-flow.png)
 
 Figure 9. General sequence of events for a simple multiple-developer Git
 workflow
@@ -471,7 +471,7 @@ $ git commit -am 'Add ls-files'
 
 Jessica’s repository now looks like this:
 
-![Jessica’s initial commit history](../../../../images/managed-team-1.png)
+![Jessica’s initial commit history](../../../../../images/progit/managed-team-1.png)
 
 Figure 10. Jessica’s initial commit history
 
@@ -574,7 +574,7 @@ To jessica@githost:simplegit.git
 Jessica’s commit history now looks something like this:
 
 ![Jessica’s history after committing on a feature
-branch](../../../../images/managed-team-2.png)
+branch](../../../../../images/progit/managed-team-2.png)
 
 Figure 11. Jessica’s history after committing on a feature branch
 
@@ -585,7 +585,7 @@ branches into the mainline, a fetch will bring down the new merge
 commit, making the history look like this:
 
 ![Jessica’s history after merging both her topic
-branches](../../../../images/managed-team-3.png)
+branches](../../../../../images/progit/managed-team-3.png)
 
 Figure 12. Jessica’s history after merging both her topic branches
 
@@ -597,7 +597,7 @@ entire team is a huge benefit of Git. The sequence for the workflow you
 saw here is something like this:
 
 ![Basic sequence of this managed-team
-workflow](../../../../images/managed-team-flow.png)
+workflow](../../../../../images/progit/managed-team-flow.png)
 
 Figure 13. Basic sequence of this managed-team workflow
 
@@ -717,7 +717,7 @@ queue — that you can rewrite, rebase, and modify without the topics
 interfering or interdepending on each other, like so:
 
 ![Initial commit history with \`featureB\`
-work](../../../../images/public-small-1.png)
+work](../../../../../images/progit/public-small-1.png)
 
 Figure 14. Initial commit history with `featureB` work
 
@@ -736,7 +736,7 @@ $ git push -f myfork featureA
 This rewrites your history to now look like [Commit history after
 `featureA` work](#psp_b).
 
-![Commit history after \`featureA\` work](../../../../images/public-small-2.png)
+![Commit history after \`featureA\` work](../../../../../images/progit/public-small-2.png)
 
 Figure 15. Commit history after `featureA` work
 
@@ -774,7 +774,7 @@ At this point, you can notify the maintainer that you’ve made the
 requested changes, and that they can find those changes in your
 `featureBv2` branch.
 
-![Commit history after \`featureBv2\` work](../../../../images/public-small-3.png)
+![Commit history after \`featureBv2\` work](../../../../../images/progit/public-small-3.png)
 
 Figure 16. Commit history after `featureBv2` work
 

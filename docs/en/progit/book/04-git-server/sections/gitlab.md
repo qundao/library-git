@@ -38,7 +38,7 @@ a password for and stores it to /etc/gitlab/initial_root_password for at
 least 24 hours. Follow the documentation for more details. After you’ve
 logged in, click the “Admin area” icon in the menu at the top right.
 
-![The “Admin area” item in the GitLab menu](../../../../images/gitlab-menu.png)
+![The “Admin area” item in the GitLab menu](../../../../../images/progit/gitlab-menu.png)
 
 Figure 1. The “Admin area” item in the GitLab menu
 
@@ -51,7 +51,7 @@ a logical grouping of projects that belong to that user. If the user
 jane had a project named project, that project’s URL would be
 [`http://server/jane/project`](http://server/jane/project).
 
-![The GitLab user administration screen](../../../../images/gitlab-users.png)
+![The GitLab user administration screen](../../../../../images/progit/gitlab-users.png)
 
 Figure 2. The GitLab user administration screen
 
@@ -74,7 +74,7 @@ same way that users do), so if the group training has a project
 materials, its URL would be
 [`http://server/training/materials`](http://server/training/materials).
 
-![The GitLab group administration screen](../../../../images/gitlab-groups.png)
+![The GitLab group administration screen](../../../../../images/progit/gitlab-groups.png)
 
 Figure 3. The GitLab group administration screen
 
