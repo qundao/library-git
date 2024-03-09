@@ -7,3 +7,6 @@
 [submodule "raw/git-from-the-bottom-up"]
 	path = raw/git-from-the-bottom-up
 	url = https://github.com/jwiegley/git-from-the-bottom-up.git
+[submodule "raw/visual-git-guide"]
+	path = raw/visual-git-guide
+	url = https://github.com/MarkLodato/visual-git-guide
