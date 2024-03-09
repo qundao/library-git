@@ -199,6 +199,11 @@ plugins:
             A2.3 JGit: A2.3 JGit
             A2.4 go-git: A2.4 go-git
             A2.5 Dulwich: A2.5 Dulwich
+            Git from the Bottom Up: 自底向上深入Git
+            1 Repository: 第1章 仓库
+            2 the Index: 第2章 索引
+            3 Reset: 第3章 重置
+
           theme:
             palette:
               - media: "(prefers-color-scheme: light)"
