@@ -334,3 +334,25 @@ nav:
       - progit/book/preface_schacon.md
       - progit/book/contributors.md
       - progit/LICENSE.md
+  - Git from the Bottom Up:
+    - git-from-the-bottom-up/index.md
+    - 1 Repository:
+      - git-from-the-bottom-up/1-Repository/1-directory-content-tracking.md
+      - git-from-the-bottom-up/1-Repository/2-introducing-the-blob.md
+      - git-from-the-bottom-up/1-Repository/3-blobs-are-stored-in-trees.md
+      - git-from-the-bottom-up/1-Repository/4-how-trees-are-made.md
+      - git-from-the-bottom-up/1-Repository/5-the-beauty-of-commits.md
+      - git-from-the-bottom-up/1-Repository/6-a-commit-by-any-other-name.md
+      - git-from-the-bottom-up/1-Repository/7-branching-and-the-power-of-rebase.md
+      - git-from-the-bottom-up/1-Repository/8-interactive-rebasing.md
+    - 2 the Index:
+      - git-from-the-bottom-up/2-The-Index/1-meet-the-middle-man.md
+      - git-from-the-bottom-up/2-The-Index/2-taking-the-index-further.md
+    - 3 Reset:
+      - git-from-the-bottom-up/3-Reset/1-to-reset-or-not-to-reset.md
+      - git-from-the-bottom-up/3-Reset/2-doing-a-mixed-reset.md
+      - git-from-the-bottom-up/3-Reset/3-doing-a-soft-reset.md
+      - git-from-the-bottom-up/3-Reset/4-doing-a-hard-reset.md
+    - git-from-the-bottom-up/4-Stashing-and-the-reflog.md
+    - git-from-the-bottom-up/5-Conclusion.md
+    - git-from-the-bottom-up/6-Further-Reading.md
