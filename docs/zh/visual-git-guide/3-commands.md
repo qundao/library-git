@@ -25,7 +25,7 @@
 
 ![](../../images/visual-git-guide/commit-amend.svg.png)
 
-另一个例子是[分离HEAD提交](#detached),后文讲。
+另一个例子是[游离态HEAD的提交](#游离态HEAD的提交),后文讲。
 
 ### Checkout
 
@@ -40,11 +40,13 @@ checkout命令用于从历史提交（或者暂存区域）中拷贝文件到工
 ![](../../images/visual-git-guide/checkout-branch.svg.png)
 
 如果既没有指定文件名，也没有指定分支名，而是一个标签、远程分支、SHA-1值或者是像*main~3*类似的东西，就得到一个匿名分支，称作*detached
-HEAD*（被分离的*HEAD*标识）。这样可以很方便地在历史版本之间互相切换。比如说你想要编译1.6.6.1版本的git，你可以运行`git checkout v1.6.6.1`（这是一个标签，而非分支名），编译，安装，然后切换回另一个分支，比如说`git checkout main`。然而，当提交操作涉及到“分离的HEAD”时，其行为会略有不同，详情见在[下面](#detached)。
+HEAD*（被分离的*HEAD*标识）。这样可以很方便地在历史版本之间互相切换。比如说你想要编译1.6.6.1版本的git，你可以运行`git checkout v1.6.6.1`（这是一个标签，而非分支名），编译，安装，然后切换回另一个分支，比如说`git checkout main`。然而，当提交操作涉及到“分离的HEAD”时，其行为会略有不同，详情见在[下面](#游离态HEAD的提交)。
 
 ![](../../images/visual-git-guide/checkout-detached.svg.png)
 
-### HEAD标识处于分离状态时的提交操作
+### 游离态HEAD的提交
+
+（HEAD标识处于分离状态时的提交操作）
 
 当*HEAD*处于分离状态（不依附于任一分支）时，提交操作可以正常进行，但是不会更新任何已命名的分支。(你可以认为这是在更新一个匿名分支。)
 
@@ -54,7 +56,7 @@ HEAD*（被分离的*HEAD*标识）。这样可以很方便地在历史版本之
 
 ![](../../images/visual-git-guide/checkout-after-detached.svg.png)
 
-但是，如果你想保存这个状态，可以用命令`git checkout -b `*`name`*来创建一个新的分支。
+但是，如果你想保存这个状态，可以用命令`git checkout -b *name*`来创建一个新的分支。
 
 ![](../../images/visual-git-guide/checkout-b-detached.svg.png)
 
