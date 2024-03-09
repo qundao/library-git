@@ -1,2 +1,333 @@
-site_name: My Docs
-theme: material
+# Site information
+site_name: Pro Git (2nd version)
+site_url: https://hantang.github.io/wayback-progit/
+site_description: Pro Git book, written by Scott Chacon and Ben Straub
+copyright: A backup of <a href="https://git-scm.com/book/en/v2">Pro Git book</a>
+repo_url: https://github.com/hantang/wayback-progit
+
+theme:
+  name: material
+  # favicon: assets/favicon.ico
+  icon:
+      logo: fontawesome/brands/git-alt
+  font:
+    text: Source Sans Pro, sans-serif
+    code: Source Code Pro, Menlo, DejaVu Sans Mono, Lucida Console, monospace
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: deep purple
+      scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to system preference
+  features:
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.prune
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - content.code.copy
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 4
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+      line_spans: __span
+      linenums_style: pymdownx-inline
+      linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - static/js/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+plugins:
+  - search
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder # suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 简体中文
+          build: true
+          site_name: Pro Git（第二版）
+          nav_translations:
+            Home: 首页
+            Overview: 概览
+            Chapters: 章节
+            Appendices: 附录
+            More: 补充资料
+            01 Getting Started: 第1章 起步
+            02 Git Basics: 第2章 Git基础
+            03 Git Branching: 第3章 Git分支
+            04 Git on the Server: 第4章 服务器上的Git
+            05 Distributed Git: 第5章 分布式Git
+            06 GitHub: 第6章 GitHub
+            07 Git Tools: 第7章 Git工具
+            08 Customizing Git: 第8章 自定义Git
+            09 Git and Other Systems: 第9章 Git与其他系统
+            10 Git Internals: 第10章 Git内部原理
+            "A: Git in Other Environments": "附录A: 在其它环境中使用 Git"
+            "B: Embedding Git in your Applications": "附录 B: 在你的应用中嵌入 Git"
+            "C: Git Commands": "附录 C: Git 命令"
+            1.1 About Version Control: 1.1 关于版本控制
+            1.2 A Short History of Git: 1.2 Git 简史
+            1.3 What is Git?: 1.3 Git 是什么？
+            1.4 The Command Line: 1.4 命令行
+            1.5 Installing Git: 1.5 安装 Git
+            1.6 First-Time Git Setup: 1.6 初次运行 Git 前的配置
+            1.7 Getting Help: 1.7 获取帮助
+            2.1 Getting a Git Repository: 2.1 获取 Git 仓库
+            2.2 Recording Changes to the Repository: 2.2 记录每次更新到仓库
+            2.3 Viewing the Commit History: 2.3 查看提交历史
+            2.4 Undoing Things: 2.4 撤消操作
+            2.5 Working with Remotes: 2.5 远程仓库的使用
+            2.6 Tagging: 2.6 打标签
+            2.7 Git Aliases: 2.7 Git 别名
+            3.1 Branches in a Nutshell: 3.1 分支简介
+            3.2 Basic Branching and Merging: 3.2 分支的新建与合并
+            3.3 Branch Management: 3.3 分支管理
+            3.4 Branching Workflows: 3.4 分支开发工作流
+            3.5 Remote Branches: 3.5 远程分支
+            3.6 Rebasing: 3.6 变基
+            4.1 The Protocols: 4.1 协议
+            4.2 Getting Git on a Server: 4.2 在服务器上搭建 Git
+            4.3 Generating Your SSH Public Key: 4.3 生成 SSH 公钥
+            4.4 Setting Up the Server: 4.4 配置服务器
+            4.5 Git Daemon: 4.5 Git 守护进程
+            4.6 Smart HTTP: 4.6 Smart HTTP
+            4.7 GitWeb: 4.7 GitWeb
+            4.8 GitLab: 4.8 GitLab
+            4.9 Third Party Hosted Options: 4.9 第三方托管的选择
+            5.1 Distributed Workflows: 5.1 分布式工作流程
+            5.2 Contributing to a Project: 5.2 向一个项目贡献
+            5.3 Maintaining a Project: 5.3 维护项目
+            6.1 Account Setup and Configuration: 6.1 账户的创建和配置
+            6.2 Contributing to a Project: 6.2 对项目做出贡献
+            6.3 Maintaining a Project: 6.3 维护项目
+            6.4 Managing an organization: 6.4 管理组织
+            6.5 Scripting GitHub: 6.5 脚本 GitHub
+            7.1 Revision Selection: 7.1 选择修订版本
+            7.2 Interactive Staging: 7.2 交互式暂存
+            7.3 Stashing and Cleaning: 7.3 贮藏与清理
+            7.4 Signing Your Work: 7.4 签署工作
+            7.5 Searching: 7.5 搜索
+            7.6 Rewriting History: 7.6 重写历史
+            7.7 Reset Demystified: 7.7 重置揭密
+            7.8 Advanced Merging: 7.8 高级合并
+            7.9 Rerere: 7.9 Rerere
+            7.10 Debugging with Git: 7.10 使用 Git 调试
+            7.11 Submodules: 7.11 子模块
+            7.12 Bundling: 7.12 打包
+            7.13 Replace: 7.13 替换
+            7.14 Credential Storage: 7.14 凭证存储
+            8.1 Git Configuration: 8.1 配置 Git
+            8.2 Git Attributes: 8.2 Git 属性
+            8.3 Git Hooks: 8.3 Git 钩子
+            8.4 An Example Git-Enforced Policy: 8.4 使用强制策略的一个例子
+            9.1 Git as a Client: 9.1 作为客户端的 Git
+            9.2 Migrating to Git: 9.2 迁移到 Git
+            10.1 Plumbing and Porcelain: 10.1 底层命令与上层命令
+            10.2 Git Objects: 10.2 Git 对象
+            10.3 Git References: 10.3 Git 引用
+            10.4 Packfiles: 10.4 包文件
+            10.5 The Refspec: 10.5 引用规范
+            10.6 Transfer Protocols: 10.6 传输协议
+            10.7 Maintenance and Data Recovery: 10.7 维护与数据恢复
+            10.8 Environment Variables: 10.8 环境变量
+            A1.1 Graphical Interfaces: A1.1 图形界面
+            A1.2 Git in Visual Studio: A1.2 Visual Studio 中的 Git
+            A1.3 Git in Visual Studio Code: A1.3 Visual Studio Code 中的 Git
+            A1.4 Git in IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine: A1.4 IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine 中的 Git
+            A1.5 Git in Sublime Text: A1.5 Sublime Text 中的 Git
+            A1.6 Git in Bash: A1.6 Bash 中的 Git
+            A1.7 Git in Zsh: A1.7 Zsh 中的 Git
+            A1.8 Git in PowerShell: A1.8 Git 在 PowerShell 中使用 Git
+            A1.9 Summary: A1.9 总结
+            A2.1 Command-line Git: A2.1 命令行 Git 方式
+            A2.2 Libgit2: A2.2 Libgit2
+            A2.3 JGit: A2.3 JGit
+            A2.4 go-git: A2.4 go-git
+            A2.5 Dulwich: A2.5 Dulwich
+          theme:
+            palette:
+              - media: "(prefers-color-scheme: light)"
+                primary: deep orange
+                scheme: default
+              - media: "(prefers-color-scheme: dark)"
+                primary: black
+                scheme: slate
+
+nav:
+  - Home: index.md
+  - Overview:
+    - 01 Getting Started: ch01-getting-started.md
+    - 02 Git Basics: ch02-git-basics-chapter.md
+    - 03 Git Branching: ch03-git-branching.md
+    - 04 Git on the Server: ch04-git-on-the-server.md
+    - 05 Distributed Git: ch05-distributed-git.md
+    - 06 GitHub: ch06-github.md
+    - 07 Git Tools: ch07-git-tools.md
+    - 08 Customizing Git: ch08-customizing-git.md
+    - 09 Git and Other Systems: ch09-git-and-other-systems.md
+    - 10 Git Internals: ch10-git-internals.md
+  - Chapters:
+    - book/introduction.md
+    - 01 Getting Started:
+      - 1.1 About Version Control: book/01-introduction/sections/about-version-control.md
+      - 1.2 A Short History of Git: book/01-introduction/sections/history.md
+      - 1.3 What is Git?: book/01-introduction/sections/what-is-git.md
+      - 1.4 The Command Line: book/01-introduction/sections/command-line.md
+      - 1.5 Installing Git: book/01-introduction/sections/installing.md
+      - 1.6 First-Time Git Setup: book/01-introduction/sections/first-time-setup.md
+      - 1.7 Getting Help: book/01-introduction/sections/help.md
+    - 02 Git Basics:
+      - 2.1 Getting a Git Repository: book/02-git-basics/sections/getting-a-repository.md
+      - 2.2 Recording Changes to the Repository: book/02-git-basics/sections/recording-changes.md
+      - 2.3 Viewing the Commit History: book/02-git-basics/sections/viewing-history.md
+      - 2.4 Undoing Things: book/02-git-basics/sections/undoing.md
+      - 2.5 Working with Remotes: book/02-git-basics/sections/remotes.md
+      - 2.6 Tagging: book/02-git-basics/sections/tagging.md
+      - 2.7 Git Aliases: book/02-git-basics/sections/aliases.md
+    - 03 Git Branching:
+      - 3.1 Branches in a Nutshell: book/03-git-branching/sections/nutshell.md
+      - 3.2 Basic Branching and Merging: book/03-git-branching/sections/basic-branching-and-merging.md
+      - 3.3 Branch Management: book/03-git-branching/sections/branch-management.md
+      - 3.4 Branching Workflows: book/03-git-branching/sections/workflows.md
+      - 3.5 Remote Branches: book/03-git-branching/sections/remote-branches.md
+      - 3.6 Rebasing: book/03-git-branching/sections/rebasing.md
+    - 04 Git on the Server:
+      - 4.1 The Protocols: book/04-git-server/sections/protocols.md
+      - 4.2 Getting Git on a Server: book/04-git-server/sections/git-on-a-server.md
+      - 4.3 Generating Your SSH Public Key: book/04-git-server/sections/generating-ssh-key.md
+      - 4.4 Setting Up the Server: book/04-git-server/sections/setting-up-server.md
+      - 4.5 Git Daemon: book/04-git-server/sections/git-daemon.md
+      - 4.6 Smart HTTP: book/04-git-server/sections/smart-http.md
+      - 4.7 GitWeb: book/04-git-server/sections/gitweb.md
+      - 4.8 GitLab: book/04-git-server/sections/gitlab.md
+      - 4.9 Third Party Hosted Options: book/04-git-server/sections/hosted.md
+    - 05 Distributed Git:
+      - 5.1 Distributed Workflows: book/05-distributed-git/sections/distributed-workflows.md
+      - 5.2 Contributing to a Project: book/05-distributed-git/sections/contributing.md
+      - 5.3 Maintaining a Project: book/05-distributed-git/sections/maintaining.md
+    - 06 GitHub:
+      - 6.1 Account Setup and Configuration: book/06-github/sections/1-setting-up-account.md
+      - 6.2 Contributing to a Project: book/06-github/sections/2-contributing.md
+      - 6.3 Maintaining a Project: book/06-github/sections/3-maintaining.md
+      - 6.4 Managing an organization: book/06-github/sections/4-managing-organization.md
+      - 6.5 Scripting GitHub: book/06-github/sections/5-scripting.md
+    - 07 Git Tools:
+      - 7.1 Revision Selection: book/07-git-tools/sections/revision-selection.md
+      - 7.2 Interactive Staging: book/07-git-tools/sections/interactive-staging.md
+      - 7.3 Stashing and Cleaning: book/07-git-tools/sections/stashing-cleaning.md
+      - 7.4 Signing Your Work: book/07-git-tools/sections/signing.md
+      - 7.5 Searching: book/07-git-tools/sections/searching.md
+      - 7.6 Rewriting History: book/07-git-tools/sections/rewriting-history.md
+      - 7.7 Reset Demystified: book/07-git-tools/sections/reset.md
+      - 7.8 Advanced Merging: 
+        - book/07-git-tools/sections/advanced-merging.md
+        - book/07-git-tools/sections/subtree-merges.md
+      - 7.9 Rerere: book/07-git-tools/sections/rerere.md
+      - 7.10 Debugging with Git: book/07-git-tools/sections/debugging.md
+      - 7.11 Submodules: book/07-git-tools/sections/submodules.md
+      - 7.12 Bundling: book/07-git-tools/sections/bundling.md
+      - 7.13 Replace: book/07-git-tools/sections/replace.md
+      - 7.14 Credential Storage: book/07-git-tools/sections/credentials.md
+    - 08 Customizing Git:
+      - 8.1 Git Configuration: book/08-customizing-git/sections/config.md
+      - 8.2 Git Attributes: book/08-customizing-git/sections/attributes.md
+      - 8.3 Git Hooks: book/08-customizing-git/sections/hooks.md
+      - 8.4 An Example Git-Enforced Policy: book/08-customizing-git/sections/policy.md
+    - 09 Git and Other Systems:
+      - 9.1 Git as a Client:
+        - book/09-git-and-other-scms/sections/client-hg.md
+        - book/09-git-and-other-scms/sections/client-p4.md
+        - book/09-git-and-other-scms/sections/client-svn.md
+        - book/09-git-and-other-scms/sections/import-custom.md
+      - 9.2 Migrating to Git:
+        - book/09-git-and-other-scms/sections/import-hg.md
+        - book/09-git-and-other-scms/sections/import-p4.md
+        - book/09-git-and-other-scms/sections/import-svn.md
+    - 10 Git Internals:
+      - 10.1 Plumbing and Porcelain: book/10-git-internals/sections/plumbing-porcelain.md
+      - 10.2 Git Objects: book/10-git-internals/sections/objects.md
+      - 10.3 Git References: book/10-git-internals/sections/refs.md
+      - 10.4 Packfiles: book/10-git-internals/sections/packfiles.md
+      - 10.5 The Refspec: book/10-git-internals/sections/refspec.md
+      - 10.6 Transfer Protocols: book/10-git-internals/sections/transfer-protocols.md
+      - 10.7 Maintenance and Data Recovery: book/10-git-internals/sections/maintenance.md
+      - 10.8 Environment Variables: book/10-git-internals/sections/environment.md
+  - Appendices:
+    - "A: Git in Other Environments":
+      - A-git-in-other-environments.md
+      - A1.1 Graphical Interfaces: book/A-git-in-other-environments/sections/guis.md
+      - A1.2 Git in Visual Studio: book/A-git-in-other-environments/sections/visualstudio.md
+      - A1.3 Git in Visual Studio Code: book/A-git-in-other-environments/sections/visualstudiocode.md
+      - A1.4 Git in IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine: book/A-git-in-other-environments/sections/jetbrainsides.md
+      - A1.5 Git in Sublime Text: book/A-git-in-other-environments/sections/sublimetext.md
+      - A1.6 Git in Bash: book/A-git-in-other-environments/sections/bash.md
+      - A1.7 Git in Zsh: book/A-git-in-other-environments/sections/zsh.md
+      - A1.8 Git in PowerShell: book/A-git-in-other-environments/sections/powershell.md
+    - "B: Embedding Git in your Applications":
+      - B-embedding-git-in-your-applications.md
+      - A2.1 Command-line Git: book/B-embedding-git/sections/command-line.md
+      - A2.2 Libgit2: book/B-embedding-git/sections/libgit2.md
+      - A2.3 JGit: book/B-embedding-git/sections/jgit.md
+      - A2.4 go-git: book/B-embedding-git/sections/go-git.md
+      - A2.5 Dulwich: book/B-embedding-git/sections/dulwich.md
+    - "C: Git Commands":
+      - C-git-commands.md
+  - More: 
+    - book/dedication.md
+    - book/preface_ben.md
+    - book/preface_schacon.md
+    - book/contributors.md
+    - LICENSE.md
