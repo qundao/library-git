@@ -1,6 +1,12 @@
-[submodule "progit2"]
+[submodule "raw/progit2"]
 	path = raw/progit2
 	url = https://github.com/progit/progit2.git
-[submodule "progit2-zh"]
+[submodule "raw/progit2-zh"]
 	path = raw/progit2-zh
 	url = https://github.com/progit/progit2-zh.git
+[submodule "raw/git-from-the-bottom-up"]
+	path = raw/git-from-the-bottom-up
+	url = https://github.com/jwiegley/git-from-the-bottom-up.git
+[submodule "raw/git-from-the-bottom-up-zh"]
+	path = raw/git-from-the-bottom-up-zh
+	url = https://github.com/princewang1994/git-from-the-bottom-up.git
