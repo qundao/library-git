@@ -1,0 +1,6 @@
+[submodule "orignal/progit2"]
+	path = orignal/progit2
+	url = https://github.com/progit/progit2.git
+[submodule "orignal/progit2-zh"]
+	path = orignal/progit2-zh
+	url = https://github.com/progit/progit2-zh.git
