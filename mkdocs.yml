@@ -203,6 +203,12 @@ plugins:
             1 Repository: 第1章 仓库
             2 the Index: 第2章 索引
             3 Reset: 第3章 重置
+            Visual Git Guide: 图解Git
+            1. Basic Usage: 第1节 基本用法
+            2. Conventions: 第2节 约定
+            3. Commands in Detail: 第3节 命令详解
+            4. Technical Notes: 第4节 技术说明
+            5. Walkthrough: 第5节 演示
 
           theme:
             palette:
@@ -339,6 +345,7 @@ nav:
       - progit/book/preface_schacon.md
       - progit/book/contributors.md
       - progit/LICENSE.md
+
   - Git from the Bottom Up:
     - git-from-the-bottom-up/index.md
     - 1 Repository:
@@ -361,3 +368,11 @@ nav:
     - git-from-the-bottom-up/4-Stashing-and-the-reflog.md
     - git-from-the-bottom-up/5-Conclusion.md
     - git-from-the-bottom-up/6-Further-Reading.md
+
+  - Visual Git Guide:
+    - Introduction: visual-git-guide/index.md
+    - 1. Basic Usage: visual-git-guide/1-basic-usage.md
+    - 2. Conventions: visual-git-guide/2-conventions.md
+    - 3. Commands in Detail: visual-git-guide/3-commands.md
+    - 4. Technical Notes: visual-git-guide/4-technical-notes.md
+    - 5. Walkthrough: visual-git-guide/5-walkthrough.md

@@ -32,6 +32,8 @@ D3](http://onlywei.github.io/explain-git-with-d3/#)
 
 ---
 
+## Copyright & Translation
+
 - Copyright © 2010, [Mark Lodato](mailto:lodatom@gmail.com).
 - Japanese translation © 2010, [Kazu Yamamoto](http://github.com/kazu-yamamoto).
 - Korean translation © 2011, [Sean Lee](mailto:sean@weaveus.com).
@@ -46,7 +48,7 @@ D3](http://onlywei.github.io/explain-git-with-d3/#)
 - Traditional Chinese translation © 2015, [Peter Dave Hello](https://github.com/PeterDaveHello).
 - Polish translation © 2017, [Emil Wypych](mailto:wypychemil@gmail.com).
 
-[![](../../images/visual-git-guide/https://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/3.0/us/)
+[![](https://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/3.0/us/)
 This work is licensed under a [Creative Commons
 Attribution-Noncommercial-Share Alike 3.0 United States
 License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/).
