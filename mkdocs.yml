@@ -1,8 +1,8 @@
 # Site information
-site_name: Pro Git (2nd version)
+site_name: Git books
 site_url: https://hantang.github.io/wayback-progit/
-site_description: Pro Git book, written by Scott Chacon and Ben Straub
-copyright: A backup of <a href="https://git-scm.com/book/en/v2">Pro Git book</a>
+site_description: Book of Pro Git, Git from the Bottom Up
+copyright: A backup of <a href="https://git-scm.com/book/en/v2">Pro Git</a>, <a href="https://jwiegley.github.io/git-from-the-bottom-up/">Git from the Bottom Up</a> ...
 repo_url: https://github.com/hantang/wayback-progit
 
 theme:
@@ -98,13 +98,14 @@ plugins:
         - locale: zh
           name: 简体中文
           build: true
-          site_name: Pro Git（第二版）
+          site_name: Git 书册
           nav_translations:
             Home: 首页
             Overview: 概览
             Chapters: 章节
             Appendices: 附录
             More: 补充资料
+            Pro Git(Appendices): Pro Git(附录)
             Introduction: 简介
             01 Getting Started: 第1章 起步
             02 Git Basics: 第2章 Git基础
@@ -209,126 +210,127 @@ plugins:
 
 nav:
   - Home: index.md
-  - Overview:
-    - 01 Getting Started: ch01-getting-started.md
-    - 02 Git Basics: ch02-git-basics-chapter.md
-    - 03 Git Branching: ch03-git-branching.md
-    - 04 Git on the Server: ch04-git-on-the-server.md
-    - 05 Distributed Git: ch05-distributed-git.md
-    - 06 GitHub: ch06-github.md
-    - 07 Git Tools: ch07-git-tools.md
-    - 08 Customizing Git: ch08-customizing-git.md
-    - 09 Git and Other Systems: ch09-git-and-other-systems.md
-    - 10 Git Internals: ch10-git-internals.md
-  - Chapters:
-    - Introduction: book/introduction.md
+
+  - Pro Git:
+    - Introduction: progit/book/introduction.md
+    - Overview:
+      - 01 Getting Started: progit/ch01-getting-started.md
+      - 02 Git Basics: progit/ch02-git-basics-chapter.md
+      - 03 Git Branching: progit/ch03-git-branching.md
+      - 04 Git on the Server: progit/ch04-git-on-the-server.md
+      - 05 Distributed Git: progit/ch05-distributed-git.md
+      - 06 GitHub: progit/ch06-github.md
+      - 07 Git Tools: progit/ch07-git-tools.md
+      - 08 Customizing Git: progit/ch08-customizing-git.md
+      - 09 Git and Other Systems: progit/ch09-git-and-other-systems.md
+      - 10 Git Internals: progit/ch10-git-internals.md
     - 01 Getting Started:
-      - 1.1 About Version Control: book/01-introduction/sections/about-version-control.md
-      - 1.2 A Short History of Git: book/01-introduction/sections/history.md
-      - 1.3 What is Git?: book/01-introduction/sections/what-is-git.md
-      - 1.4 The Command Line: book/01-introduction/sections/command-line.md
-      - 1.5 Installing Git: book/01-introduction/sections/installing.md
-      - 1.6 First-Time Git Setup: book/01-introduction/sections/first-time-setup.md
-      - 1.7 Getting Help: book/01-introduction/sections/help.md
+      - 1.1 About Version Control: progit/book/01-introduction/sections/about-version-control.md
+      - 1.2 A Short History of Git: progit/book/01-introduction/sections/history.md
+      - 1.3 What is Git?: progit/book/01-introduction/sections/what-is-git.md
+      - 1.4 The Command Line: progit/book/01-introduction/sections/command-line.md
+      - 1.5 Installing Git: progit/book/01-introduction/sections/installing.md
+      - 1.6 First-Time Git Setup: progit/book/01-introduction/sections/first-time-setup.md
+      - 1.7 Getting Help: progit/book/01-introduction/sections/help.md
     - 02 Git Basics:
-      - 2.1 Getting a Git Repository: book/02-git-basics/sections/getting-a-repository.md
-      - 2.2 Recording Changes to the Repository: book/02-git-basics/sections/recording-changes.md
-      - 2.3 Viewing the Commit History: book/02-git-basics/sections/viewing-history.md
-      - 2.4 Undoing Things: book/02-git-basics/sections/undoing.md
-      - 2.5 Working with Remotes: book/02-git-basics/sections/remotes.md
-      - 2.6 Tagging: book/02-git-basics/sections/tagging.md
-      - 2.7 Git Aliases: book/02-git-basics/sections/aliases.md
+      - 2.1 Getting a Git Repository: progit/book/02-git-basics/sections/getting-a-repository.md
+      - 2.2 Recording Changes to the Repository: progit/book/02-git-basics/sections/recording-changes.md
+      - 2.3 Viewing the Commit History: progit/book/02-git-basics/sections/viewing-history.md
+      - 2.4 Undoing Things: progit/book/02-git-basics/sections/undoing.md
+      - 2.5 Working with Remotes: progit/book/02-git-basics/sections/remotes.md
+      - 2.6 Tagging: progit/book/02-git-basics/sections/tagging.md
+      - 2.7 Git Aliases: progit/book/02-git-basics/sections/aliases.md
     - 03 Git Branching:
-      - 3.1 Branches in a Nutshell: book/03-git-branching/sections/nutshell.md
-      - 3.2 Basic Branching and Merging: book/03-git-branching/sections/basic-branching-and-merging.md
-      - 3.3 Branch Management: book/03-git-branching/sections/branch-management.md
-      - 3.4 Branching Workflows: book/03-git-branching/sections/workflows.md
-      - 3.5 Remote Branches: book/03-git-branching/sections/remote-branches.md
-      - 3.6 Rebasing: book/03-git-branching/sections/rebasing.md
+      - 3.1 Branches in a Nutshell: progit/book/03-git-branching/sections/nutshell.md
+      - 3.2 Basic Branching and Merging: progit/book/03-git-branching/sections/basic-branching-and-merging.md
+      - 3.3 Branch Management: progit/book/03-git-branching/sections/branch-management.md
+      - 3.4 Branching Workflows: progit/book/03-git-branching/sections/workflows.md
+      - 3.5 Remote Branches: progit/book/03-git-branching/sections/remote-branches.md
+      - 3.6 Rebasing: progit/book/03-git-branching/sections/rebasing.md
     - 04 Git on the Server:
-      - 4.1 The Protocols: book/04-git-server/sections/protocols.md
-      - 4.2 Getting Git on a Server: book/04-git-server/sections/git-on-a-server.md
-      - 4.3 Generating Your SSH Public Key: book/04-git-server/sections/generating-ssh-key.md
-      - 4.4 Setting Up the Server: book/04-git-server/sections/setting-up-server.md
-      - 4.5 Git Daemon: book/04-git-server/sections/git-daemon.md
-      - 4.6 Smart HTTP: book/04-git-server/sections/smart-http.md
-      - 4.7 GitWeb: book/04-git-server/sections/gitweb.md
-      - 4.8 GitLab: book/04-git-server/sections/gitlab.md
-      - 4.9 Third Party Hosted Options: book/04-git-server/sections/hosted.md
+      - 4.1 The Protocols: progit/book/04-git-server/sections/protocols.md
+      - 4.2 Getting Git on a Server: progit/book/04-git-server/sections/git-on-a-server.md
+      - 4.3 Generating Your SSH Public Key: progit/book/04-git-server/sections/generating-ssh-key.md
+      - 4.4 Setting Up the Server: progit/book/04-git-server/sections/setting-up-server.md
+      - 4.5 Git Daemon: progit/book/04-git-server/sections/git-daemon.md
+      - 4.6 Smart HTTP: progit/book/04-git-server/sections/smart-http.md
+      - 4.7 GitWeb: progit/book/04-git-server/sections/gitweb.md
+      - 4.8 GitLab: progit/book/04-git-server/sections/gitlab.md
+      - 4.9 Third Party Hosted Options: progit/book/04-git-server/sections/hosted.md
     - 05 Distributed Git:
-      - 5.1 Distributed Workflows: book/05-distributed-git/sections/distributed-workflows.md
-      - 5.2 Contributing to a Project: book/05-distributed-git/sections/contributing.md
-      - 5.3 Maintaining a Project: book/05-distributed-git/sections/maintaining.md
+      - 5.1 Distributed Workflows: progit/book/05-distributed-git/sections/distributed-workflows.md
+      - 5.2 Contributing to a Project: progit/book/05-distributed-git/sections/contributing.md
+      - 5.3 Maintaining a Project: progit/book/05-distributed-git/sections/maintaining.md
     - 06 GitHub:
-      - 6.1 Account Setup and Configuration: book/06-github/sections/1-setting-up-account.md
-      - 6.2 Contributing to a Project: book/06-github/sections/2-contributing.md
-      - 6.3 Maintaining a Project: book/06-github/sections/3-maintaining.md
-      - 6.4 Managing an organization: book/06-github/sections/4-managing-organization.md
-      - 6.5 Scripting GitHub: book/06-github/sections/5-scripting.md
+      - 6.1 Account Setup and Configuration: progit/book/06-github/sections/1-setting-up-account.md
+      - 6.2 Contributing to a Project: progit/book/06-github/sections/2-contributing.md
+      - 6.3 Maintaining a Project: progit/book/06-github/sections/3-maintaining.md
+      - 6.4 Managing an organization: progit/book/06-github/sections/4-managing-organization.md
+      - 6.5 Scripting GitHub: progit/book/06-github/sections/5-scripting.md
     - 07 Git Tools:
-      - 7.1 Revision Selection: book/07-git-tools/sections/revision-selection.md
-      - 7.2 Interactive Staging: book/07-git-tools/sections/interactive-staging.md
-      - 7.3 Stashing and Cleaning: book/07-git-tools/sections/stashing-cleaning.md
-      - 7.4 Signing Your Work: book/07-git-tools/sections/signing.md
-      - 7.5 Searching: book/07-git-tools/sections/searching.md
-      - 7.6 Rewriting History: book/07-git-tools/sections/rewriting-history.md
-      - 7.7 Reset Demystified: book/07-git-tools/sections/reset.md
-      - 7.8 Advanced Merging: 
-        - book/07-git-tools/sections/advanced-merging.md
-        - book/07-git-tools/sections/subtree-merges.md
-      - 7.9 Rerere: book/07-git-tools/sections/rerere.md
-      - 7.10 Debugging with Git: book/07-git-tools/sections/debugging.md
-      - 7.11 Submodules: book/07-git-tools/sections/submodules.md
-      - 7.12 Bundling: book/07-git-tools/sections/bundling.md
-      - 7.13 Replace: book/07-git-tools/sections/replace.md
-      - 7.14 Credential Storage: book/07-git-tools/sections/credentials.md
+      - 7.1 Revision Selection: progit/book/07-git-tools/sections/revision-selection.md
+      - 7.2 Interactive Staging: progit/book/07-git-tools/sections/interactive-staging.md
+      - 7.3 Stashing and Cleaning: progit/book/07-git-tools/sections/stashing-cleaning.md
+      - 7.4 Signing Your Work: progit/book/07-git-tools/sections/signing.md
+      - 7.5 Searching: progit/book/07-git-tools/sections/searching.md
+      - 7.6 Rewriting History: progit/book/07-git-tools/sections/rewriting-history.md
+      - 7.7 Reset Demystified: progit/book/07-git-tools/sections/reset.md
+      - 7.8 Advanced Merging:
+        - progit/book/07-git-tools/sections/advanced-merging.md
+        - progit/book/07-git-tools/sections/subtree-merges.md
+      - 7.9 Rerere: progit/book/07-git-tools/sections/rerere.md
+      - 7.10 Debugging with Git: progit/book/07-git-tools/sections/debugging.md
+      - 7.11 Submodules: progit/book/07-git-tools/sections/submodules.md
+      - 7.12 Bundling: progit/book/07-git-tools/sections/bundling.md
+      - 7.13 Replace: progit/book/07-git-tools/sections/replace.md
+      - 7.14 Credential Storage: progit/book/07-git-tools/sections/credentials.md
     - 08 Customizing Git:
-      - 8.1 Git Configuration: book/08-customizing-git/sections/config.md
-      - 8.2 Git Attributes: book/08-customizing-git/sections/attributes.md
-      - 8.3 Git Hooks: book/08-customizing-git/sections/hooks.md
-      - 8.4 An Example Git-Enforced Policy: book/08-customizing-git/sections/policy.md
+      - 8.1 Git Configuration: progit/book/08-customizing-git/sections/config.md
+      - 8.2 Git Attributes: progit/book/08-customizing-git/sections/attributes.md
+      - 8.3 Git Hooks: progit/book/08-customizing-git/sections/hooks.md
+      - 8.4 An Example Git-Enforced Policy: progit/book/08-customizing-git/sections/policy.md
     - 09 Git and Other Systems:
       - 9.1 Git as a Client:
-        - book/09-git-and-other-scms/sections/client-svn.md
-        - book/09-git-and-other-scms/sections/client-hg.md
-        - book/09-git-and-other-scms/sections/client-p4.md
+        - progit/book/09-git-and-other-scms/sections/client-svn.md
+        - progit/book/09-git-and-other-scms/sections/client-hg.md
+        - progit/book/09-git-and-other-scms/sections/client-p4.md
       - 9.2 Migrating to Git:
-        - book/09-git-and-other-scms/sections/import-svn.md
-        - book/09-git-and-other-scms/sections/import-hg.md
-        - book/09-git-and-other-scms/sections/import-p4.md
-        - book/09-git-and-other-scms/sections/import-custom.md
+        - progit/book/09-git-and-other-scms/sections/import-svn.md
+        - progit/book/09-git-and-other-scms/sections/import-hg.md
+        - progit/book/09-git-and-other-scms/sections/import-p4.md
+        - progit/book/09-git-and-other-scms/sections/import-custom.md
     - 10 Git Internals:
-      - 10.1 Plumbing and Porcelain: book/10-git-internals/sections/plumbing-porcelain.md
-      - 10.2 Git Objects: book/10-git-internals/sections/objects.md
-      - 10.3 Git References: book/10-git-internals/sections/refs.md
-      - 10.4 Packfiles: book/10-git-internals/sections/packfiles.md
-      - 10.5 The Refspec: book/10-git-internals/sections/refspec.md
-      - 10.6 Transfer Protocols: book/10-git-internals/sections/transfer-protocols.md
-      - 10.7 Maintenance and Data Recovery: book/10-git-internals/sections/maintenance.md
-      - 10.8 Environment Variables: book/10-git-internals/sections/environment.md
-  - Appendices:
+      - 10.1 Plumbing and Porcelain: progit/book/10-git-internals/sections/plumbing-porcelain.md
+      - 10.2 Git Objects: progit/book/10-git-internals/sections/objects.md
+      - 10.3 Git References: progit/book/10-git-internals/sections/refs.md
+      - 10.4 Packfiles: progit/book/10-git-internals/sections/packfiles.md
+      - 10.5 The Refspec: progit/book/10-git-internals/sections/refspec.md
+      - 10.6 Transfer Protocols: progit/book/10-git-internals/sections/transfer-protocols.md
+      - 10.7 Maintenance and Data Recovery: progit/book/10-git-internals/sections/maintenance.md
+      - 10.8 Environment Variables: progit/book/10-git-internals/sections/environment.md
+  - Pro Git(Appendices):
     - "A: Git in Other Environments":
-      - A-git-in-other-environments.md
-      - A1.1 Graphical Interfaces: book/A-git-in-other-environments/sections/guis.md
-      - A1.2 Git in Visual Studio: book/A-git-in-other-environments/sections/visualstudio.md
-      - A1.3 Git in Visual Studio Code: book/A-git-in-other-environments/sections/visualstudiocode.md
-      - A1.4 Git in IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine: book/A-git-in-other-environments/sections/jetbrainsides.md
-      - A1.5 Git in Sublime Text: book/A-git-in-other-environments/sections/sublimetext.md
-      - A1.6 Git in Bash: book/A-git-in-other-environments/sections/bash.md
-      - A1.7 Git in Zsh: book/A-git-in-other-environments/sections/zsh.md
-      - A1.8 Git in PowerShell: book/A-git-in-other-environments/sections/powershell.md
+      - progit/A-git-in-other-environments.md
+      - A1.1 Graphical Interfaces: progit/book/A-git-in-other-environments/sections/guis.md
+      - A1.2 Git in Visual Studio: progit/book/A-git-in-other-environments/sections/visualstudio.md
+      - A1.3 Git in Visual Studio Code: progit/book/A-git-in-other-environments/sections/visualstudiocode.md
+      - A1.4 Git in IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine: progit/book/A-git-in-other-environments/sections/jetbrainsides.md
+      - A1.5 Git in Sublime Text: progit/book/A-git-in-other-environments/sections/sublimetext.md
+      - A1.6 Git in Bash: progit/book/A-git-in-other-environments/sections/bash.md
+      - A1.7 Git in Zsh: progit/book/A-git-in-other-environments/sections/zsh.md
+      - A1.8 Git in PowerShell: progit/book/A-git-in-other-environments/sections/powershell.md
     - "B: Embedding Git in your Applications":
-      - B-embedding-git-in-your-applications.md
-      - A2.1 Command-line Git: book/B-embedding-git/sections/command-line.md
-      - A2.2 Libgit2: book/B-embedding-git/sections/libgit2.md
-      - A2.3 JGit: book/B-embedding-git/sections/jgit.md
-      - A2.4 go-git: book/B-embedding-git/sections/go-git.md
-      - A2.5 Dulwich: book/B-embedding-git/sections/dulwich.md
+      - progit/B-embedding-git-in-your-applications.md
+      - A2.1 Command-line Git: progit/book/B-embedding-git/sections/command-line.md
+      - A2.2 Libgit2: progit/book/B-embedding-git/sections/libgit2.md
+      - A2.3 JGit: progit/book/B-embedding-git/sections/jgit.md
+      - A2.4 go-git: progit/book/B-embedding-git/sections/go-git.md
+      - A2.5 Dulwich: progit/book/B-embedding-git/sections/dulwich.md
     - "C: Git Commands":
-      - C-git-commands.md
-  - More: 
-    - book/dedication.md
-    - book/preface_ben.md
-    - book/preface_schacon.md
-    - book/contributors.md
-    - LICENSE.md
+      - progit/C-git-commands.md
+    - More:
+      - progit/book/dedication.md
+      - progit/book/preface_ben.md
+      - progit/book/preface_schacon.md
+      - progit/book/contributors.md
+      - progit/LICENSE.md
