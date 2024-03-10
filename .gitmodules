@@ -9,4 +9,4 @@
 	url = https://github.com/jwiegley/git-from-the-bottom-up.git
 [submodule "raw/visual-git-guide"]
 	path = raw/visual-git-guide
-	url = https://github.com/MarkLodato/visual-git-guide
+	url = https://github.com/MarkLodato/visual-git-guide.git
