@@ -1,5 +1,7 @@
 # wayback: library-git
 
+[![Deploy Pages](https://github.com/qundao/library-git/actions/workflows/pages.yml/badge.svg)](https://github.com/qundao/library-git/actions/workflows/pages.yml)
+
 ## Books
 
 - [Pro Git book](https://git-scm.com/book/en/v2), written by Scott Chacon and Ben Straub.
