@@ -1,9 +1,9 @@
 # Site information
 site_name: Git books
-site_url: https://hantang.github.io/wayback-git-books/
+site_url: https://qundao.github.io/library-git/
 site_description: Book of Pro Git, Git from the Bottom Up
 copyright: A backup of <a href="https://git-scm.com/book/en/v2">Pro Git</a>, <a href="https://jwiegley.github.io/git-from-the-bottom-up/">Git from the Bottom Up</a> ...
-repo_url: https://github.com/hantang/wayback-git-books
+repo_url: https://github.com/qundao/library-git
 
 theme:
   name: material
