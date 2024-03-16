@@ -7,28 +7,27 @@ repo_url: https://github.com/qundao/library-git
 
 theme:
   name: material
-  # favicon: assets/favicon.ico
+  # language: "zh"
   icon:
-      logo: fontawesome/brands/git-alt
+    logo: material/island
+    repo: fontawesome/brands/github-alt
   font:
-    text: Source Sans Pro, sans-serif
-    code: Source Code Pro, Menlo, DejaVu Sans Mono, Lucida Console, monospace
+    text: Open Sans, Helvetica Neue, Roboto, sans-serif, serif
+    code: Fira Mono, Fira Code, Roboto Mono, monospace
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
-      primary: deep purple
       scheme: default
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      primary: black
       scheme: slate
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/brightness-4
         name: Switch to system preference
   features:
     - navigation.footer
