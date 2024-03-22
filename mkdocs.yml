@@ -208,6 +208,7 @@ plugins:
             3. Commands in Detail: 第3节 命令详解
             4. Technical Notes: 第4节 技术说明
             5. Walkthrough: 第5节 演示
+            Git Simple Guide: Git 简明指南
 
           theme:
             palette:
@@ -375,3 +376,5 @@ nav:
     - 3. Commands in Detail: visual-git-guide/3-commands.md
     - 4. Technical Notes: visual-git-guide/4-technical-notes.md
     - 5. Walkthrough: visual-git-guide/5-walkthrough.md
+
+  - Git Simple Guide: git-guide/index.md
