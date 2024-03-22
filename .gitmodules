@@ -10,3 +10,6 @@
 [submodule "raw/visual-git-guide"]
 	path = raw/visual-git-guide
 	url = https://github.com/MarkLodato/visual-git-guide.git
+[submodule "raw/git-guide"]
+	path = raw/git-guide
+	url = https://github.com/rogerdudler/git-guide.git
