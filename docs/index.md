@@ -40,6 +40,8 @@
   8. （约定好风格，并坚持使用）【我的总结】
 
 - Git commit with emoji: [Gitmoji](https://gitmoji.dev/)
-- Git commit management: [commitizen](https://github.com/commitizen-tools/commitizen) `pip install --user -U Commitizen`
+- Git commit management:
+  - [commitizen](https://github.com/commitizen-tools/commitizen) `pip install --user -U Commitizen`
+  - [commitizen/cz-cli](https://github.com/commitizen/cz-cli) `npm install -g commitizen`
+  - Jebrains plugin: [git-commit-message-helper](https://github.com/qundao/library-git) ...
 - Git commit specification: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) `<type>[optional scope]: <description>`
-- Jebrains plugin: [git-commit-message-helper](https://github.com/qundao/library-git) ...
