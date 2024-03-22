@@ -13,3 +13,6 @@
 [submodule "raw/git-guide"]
 	path = raw/git-guide
 	url = https://github.com/rogerdudler/git-guide.git
+[submodule "raw/gitimmersion-zh"]
+	path = raw/gitimmersion-zh
+	url = https://github.com/qiwihui/gitimmersion.git
