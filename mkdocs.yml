@@ -378,3 +378,59 @@ nav:
     - 5. Walkthrough: visual-git-guide/5-walkthrough.md
 
   - Git Simple Guide: git-guide/index.md
+
+  - Git Immersion: 
+    - gitimmersion/index.md
+    - Setup: gitimmersion/lab_01.md
+    - More Setup: gitimmersion/lab_02.md
+    - Create a Project: gitimmersion/lab_03.md
+    - Checking Status: gitimmersion/lab_04.md
+    - Making Changes: gitimmersion/lab_05.md
+    - Staging Changes: gitimmersion/lab_06.md
+    - Staging and Committing: gitimmersion/lab_07.md
+    - Committing Changes: gitimmersion/lab_08.md
+    - Changes, not Files: gitimmersion/lab_09.md
+    - History: gitimmersion/lab_10.md
+    - Aliases: gitimmersion/lab_11.md
+    - Getting Old Versions: gitimmersion/lab_12.md
+    - Tagging versions: gitimmersion/lab_13.md
+    - Undoing Local Changes (before staging: gitimmersion/lab_14.md
+    - Undoing Staged Changes (before committing: gitimmersion/lab_15.md
+    - Undoing Committed Changes: gitimmersion/lab_16.md
+    - Removing Commits from a Branch: gitimmersion/lab_17.md
+    - Remove the oops tag: gitimmersion/lab_18.md
+    - Amending Commits: gitimmersion/lab_19.md
+    - Moving Files: gitimmersion/lab_20.md
+    - More Structure: gitimmersion/lab_21.md
+    - "Git Internals: The .git directory": gitimmersion/lab_22.md
+    - "Git Internals: Working directly with Git Objects": gitimmersion/lab_23.md
+    - Creating a Branch: gitimmersion/lab_24.md
+    - Navigating Branches: gitimmersion/lab_25.md
+    - Changes in Main: gitimmersion/lab_26.md
+    - Viewing Diverging Branches: gitimmersion/lab_27.md
+    - Merging: gitimmersion/lab_28.md
+    - Creating a Conflict: gitimmersion/lab_29.md
+    - Resolving Conflicts: gitimmersion/lab_30.md
+    - Rebasing VS Merging: gitimmersion/lab_31.md
+    - Resetting the Greet Branch: gitimmersion/lab_32.md
+    - Resetting the Main Branch: gitimmersion/lab_33.md
+    - Rebasing: gitimmersion/lab_34.md
+    - Merging Back to Main: gitimmersion/lab_35.md
+    - Multiple Repositories: gitimmersion/lab_36.md
+    - Cloning Repositories: gitimmersion/lab_37.md
+    - Review the Cloned Repository: gitimmersion/lab_38.md
+    - What is Origin?: gitimmersion/lab_39.md
+    - Remote Branches: gitimmersion/lab_40.md
+    - Change the Original Repository: gitimmersion/lab_41.md
+    - Fetching Changes: gitimmersion/lab_42.md
+    - Merging Pulled Changes: gitimmersion/lab_43.md
+    - Pulling Changes: gitimmersion/lab_44.md
+    - Adding a Tracking Branch: gitimmersion/lab_45.md
+    - Bare Repositories: gitimmersion/lab_46.md
+    - Adding a Remote Repository: gitimmersion/lab_47.md
+    - Pushing a Change: gitimmersion/lab_48.md
+    - Pulling Shared Changes: gitimmersion/lab_49.md
+    - Hosting your Git Repositories: gitimmersion/lab_50.md
+    - Sharing Repos: gitimmersion/lab_51.md
+    - Advanced / Future Topics: gitimmersion/lab_52.md
+    - Thank You: gitimmersion/lab_53.md
