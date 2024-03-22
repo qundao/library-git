@@ -319,32 +319,32 @@ nav:
       - 10.6 Transfer Protocols: progit/book/10-git-internals/sections/transfer-protocols.md
       - 10.7 Maintenance and Data Recovery: progit/book/10-git-internals/sections/maintenance.md
       - 10.8 Environment Variables: progit/book/10-git-internals/sections/environment.md
-  - Pro Git(Appendices):
-    - "A: Git in Other Environments":
-      - progit/A-git-in-other-environments.md
-      - A1.1 Graphical Interfaces: progit/book/A-git-in-other-environments/sections/guis.md
-      - A1.2 Git in Visual Studio: progit/book/A-git-in-other-environments/sections/visualstudio.md
-      - A1.3 Git in Visual Studio Code: progit/book/A-git-in-other-environments/sections/visualstudiocode.md
-      - A1.4 Git in IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine: progit/book/A-git-in-other-environments/sections/jetbrainsides.md
-      - A1.5 Git in Sublime Text: progit/book/A-git-in-other-environments/sections/sublimetext.md
-      - A1.6 Git in Bash: progit/book/A-git-in-other-environments/sections/bash.md
-      - A1.7 Git in Zsh: progit/book/A-git-in-other-environments/sections/zsh.md
-      - A1.8 Git in PowerShell: progit/book/A-git-in-other-environments/sections/powershell.md
-    - "B: Embedding Git in your Applications":
-      - progit/B-embedding-git-in-your-applications.md
-      - A2.1 Command-line Git: progit/book/B-embedding-git/sections/command-line.md
-      - A2.2 Libgit2: progit/book/B-embedding-git/sections/libgit2.md
-      - A2.3 JGit: progit/book/B-embedding-git/sections/jgit.md
-      - A2.4 go-git: progit/book/B-embedding-git/sections/go-git.md
-      - A2.5 Dulwich: progit/book/B-embedding-git/sections/dulwich.md
-    - "C: Git Commands":
-      - progit/C-git-commands.md
-    - More:
-      - progit/book/dedication.md
-      - progit/book/preface_ben.md
-      - progit/book/preface_schacon.md
-      - progit/book/contributors.md
-      - progit/LICENSE.md
+    - Pro Git(Appendices):
+      - "A: Git in Other Environments":
+        - progit/A-git-in-other-environments.md
+        - A1.1 Graphical Interfaces: progit/book/A-git-in-other-environments/sections/guis.md
+        - A1.2 Git in Visual Studio: progit/book/A-git-in-other-environments/sections/visualstudio.md
+        - A1.3 Git in Visual Studio Code: progit/book/A-git-in-other-environments/sections/visualstudiocode.md
+        - A1.4 Git in IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine: progit/book/A-git-in-other-environments/sections/jetbrainsides.md
+        - A1.5 Git in Sublime Text: progit/book/A-git-in-other-environments/sections/sublimetext.md
+        - A1.6 Git in Bash: progit/book/A-git-in-other-environments/sections/bash.md
+        - A1.7 Git in Zsh: progit/book/A-git-in-other-environments/sections/zsh.md
+        - A1.8 Git in PowerShell: progit/book/A-git-in-other-environments/sections/powershell.md
+      - "B: Embedding Git in your Applications":
+        - progit/B-embedding-git-in-your-applications.md
+        - A2.1 Command-line Git: progit/book/B-embedding-git/sections/command-line.md
+        - A2.2 Libgit2: progit/book/B-embedding-git/sections/libgit2.md
+        - A2.3 JGit: progit/book/B-embedding-git/sections/jgit.md
+        - A2.4 go-git: progit/book/B-embedding-git/sections/go-git.md
+        - A2.5 Dulwich: progit/book/B-embedding-git/sections/dulwich.md
+      - "C: Git Commands":
+        - progit/C-git-commands.md
+      - More:
+        - progit/book/dedication.md
+        - progit/book/preface_ben.md
+        - progit/book/preface_schacon.md
+        - progit/book/contributors.md
+        - progit/LICENSE.md
 
   - Git from the Bottom Up:
     - git-from-the-bottom-up/index.md
