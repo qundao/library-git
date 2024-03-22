@@ -209,6 +209,28 @@ plugins:
             4. Technical Notes: 第4节 技术说明
             5. Walkthrough: 第5节 演示
             Git Simple Guide: Git 简明指南
+            Setup: 1. 设置
+            More Setup: 2. 更多设置
+            Create a Project: 3. 创建项目
+            Checking Status: 4. 检查状态
+            Making Changes: 5. 做出修改
+            Staging Changes: 6. 暂存修改
+            Staging and Committing: 7. 暂存与提交
+            Committing Changes: 8. 提交修改
+            Changes, not Files: 9. 聚焦修改，而不是文件
+            History: 10. 查看历史
+            Aliases: 11. 设置别名
+            Getting Old Versions: 12. 获得旧版本
+            Tagging versions: 13. 给版本打标签
+            Undoing Local Changes (before staging): 14. 撤销本地修改（在暂存之前）
+            Undoing Staged Changes (before committing): 15. 撤销暂存的修改（在提交之前）
+            Undoing Committed Changes: 16. 撤销提交的修改
+            Removing Commits from a Branch: 17. 从分支移除提交
+            Remove the oops tag: 18. 移除 oops 标签
+            Hosting your Git Repositories: 50. 托管你的 Git 仓库
+            Sharing Repos: 51. 共享仓库
+            Advanced / Future Topics: 52. 高级/未来的主题
+            Thank You: 53. 谢谢
 
           theme:
             palette:
@@ -394,8 +416,8 @@ nav:
     - Aliases: gitimmersion/lab_11.md
     - Getting Old Versions: gitimmersion/lab_12.md
     - Tagging versions: gitimmersion/lab_13.md
-    - Undoing Local Changes (before staging: gitimmersion/lab_14.md
-    - Undoing Staged Changes (before committing: gitimmersion/lab_15.md
+    - Undoing Local Changes (before staging): gitimmersion/lab_14.md
+    - Undoing Staged Changes (before committing): gitimmersion/lab_15.md
     - Undoing Committed Changes: gitimmersion/lab_16.md
     - Removing Commits from a Branch: gitimmersion/lab_17.md
     - Remove the oops tag: gitimmersion/lab_18.md
